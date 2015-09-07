@@ -1,0 +1,10 @@
+[Core]
+Name = podcast
+Module = podcast
+
+[Documentation]
+Author = Jare
+Version = 0.1
+Website = http://plugins.getnikola.com/#graphviz
+Description = Podcast module
+

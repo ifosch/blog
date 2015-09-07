@@ -1,0 +1,98 @@
+.. title: Acerca de
+.. slug: acerca-de
+.. date: 2014-07-22
+
+Tras el auge del movimiento DevOps, creemos que compartir información es el mejor camino para estrechar la distancia entre los equipos de desarrollo y de operaciones. Con este objetivo, nace **Entre Dev Y Ops**, donde se compartirá información relativa a ambos mundos en castellano.
+
+.. raw:: html
+
+   <div id="authors" />
+
+Autores
+-------
+
+.. class:: author-card
+
+Ignasi Fosch
+============
+
+- `@ifosch`_
+
+.. class:: author-avatar img-thumbnail
+.. image:: http://www.gravatar.com/avatar/e7f565896cf71da9e729238d331291c0?size=72
+   :width: 72px
+   :height: 72px
+   :alt: Ignasi Fosch
+
+Interesado en la informática, en general, desde muy joven, estudié para programador, pero acabé trabajando como administrador. Siempre he pensado que un técnico mejora cuanto más conoce de la tecnología que usa.
+
+.. class:: author-card
+
+Javier Arellano
+===============
+
+- `@xarellano`_
+- `http://www.jarellano.es/`_
+
+.. class:: author-avatar img-thumbnail
+.. image:: http://www.gravatar.com/avatar/648f1abd185afa17ed1aed56bfc5e6df?size=72
+   :width: 72px
+   :height: 72px
+   :alt: Javier Arellano
+
+Entusiasta de la tecnología vivo arrendando mis servicios en las grandes empresas. Bibliófilo empedernido, coleccionista digital y amante de la música. Con muchos proyectos empezados y muy poco tiempo.
+
+.. class:: author-card
+
+Eduardo Bellido Bellido
+=======================
+
+- `@edu2b`_
+- `http://edubxb.net/`_
+
+.. class:: author-avatar img-thumbnail
+.. image:: http://www.gravatar.com/avatar/20c481cbb757159a75570c3e80b4314e?size=72
+   :width: 72px
+   :height: 72px
+   :alt: Eduardo Bellido Bellido
+
+Iba para Electrónico y acabé de Informático, ¿arrepentido?, todo lo contrario, he dado con mi vocación y no sabría hacer otra cosa. Trabajo como Administrador de Sistemas, aunque también me gusta programar, usuario de Linux desde hace más de 10 años, tecnófilo, apasionado del mundo del Free Software/Open Source, y seguidor del movimiento/filosofía DevOps.
+
+.. class:: author-card
+
+David Acacio
+============
+
+- `@david_acacio`_
+
+.. class:: author-avatar img-thumbnail
+.. image:: https://0.gravatar.com/avatar/a4906de70aaed95d209697943bcdf8a2
+   :width: 72px
+   :height: 72px
+   :alt: David Acacio
+
+Con siete años me regalaron un Spectrum 48k y desde entonces ando cacharreando. Técnico de sistemas reconvertido (forzosamente) a gestor, he emprendido varios negocios con mayor o menor éxito, pero siempre con ilusión y pasión. Apasionado del Open Source, los sistemas Unix/Linux, metodologías ágiles y DevOps.  Siempre en constante reciclaje.
+
+.. class:: author-card
+
+Daniel Aresté
+=============
+
+- `@dareste`_
+
+.. class:: author-avatar img-thumbnail
+.. image:: http://www.gravatar.com/avatar/8c586484c77e7bfee00946aeec35b66f?size=72
+   :width: 72px
+   :height: 72px
+   :alt: Daniel Aresté
+
+Me acerqué al *networking* hace más de diez años y quedé “enredado” haciendo de ello mi profesión. Ahora, sigo de cerca las últimas tendencias de virtualización y automatización en redes. Hay otras dos cosas que no me pierdo: echar una buena partida de mus y pasar el día en la roca escalando.
+
+
+.. _`@ifosch`: https://twitter.com/ifosch
+.. _`@xarellano`: https://twitter.com/xarellano
+.. _`@edu2b`: https://twitter.com/edu2b
+.. _`@david_acacio`: https://twitter.com/david_acacio
+.. _`@dareste`: https://twitter.com/dareste
+.. _`http://www.jarellano.es/`: http://www.jarellano.es
+.. _`http://edubxb.net/`: http://edubxb.net

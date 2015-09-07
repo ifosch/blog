@@ -1,0 +1,17 @@
+.. title: Podcast
+.. slug: podcast
+.. date: 2013-11-17
+
+Dentro de la oportunidad que nos dan las nuevas tecnologías Entre Dev Y Ops ha creado este podcast para incluir una nueva forma de comunicación a parte del blog. Un podcast es un archivo de audio que es descargado de forma automática mediante unos programas especiales que se llaman agregadores de podcast o *podcachers*. Al suscribirse con uno de estos programas, automáticamente se descargará los nuevos programas y le mantendrá informado de las últimos episodios disponibles. 
+
+La canción que acompaña el podcast es *Memory Replaced* de *Josh Woodward*, podéis descargar todas sus canciones bajo licencia *Creative Commons - Reconocimiento 3.0* en su página: `http://www.joshwoodward.com`_
+
+Para suscribirte a nuestro podcast utiliza nuestro *feed*:
+
+`http://www.entredevyops.es/edyopodcast`_
+
+Próximamente nos podréis encontrar en el resto de plataformas de escucha de podcast.
+
+.. _`http://www.entredevyops.es/edyopodcast`: http://www.entredevyops.es/edyopodcast
+
+.. _`http://www.joshwoodward.com`: http://www.joshwoodward.com

@@ -1,0 +1,602 @@
+// --------------------------------------------- //
+// edyo v2 based on Flatly 3.0.2 from Bootswatch //
+// --------------------------------------------- //
+
+@import "bootstrap/bootstrap.less";
+@import "font-awesome/font-awesome.less";
+@import "variables.less";
+@import "coupon.less";
+
+@import url("//fonts.googleapis.com/css?family=Aldrich");
+@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic");
+
+// Base =======================================================================
+
+html, body {
+  height: 100%;
+}
+
+// Navbar =====================================================================
+
+.navbar-nav {
+  font-size: @font-size-small;
+}
+
+.navbar > .container .navbar-brand {
+  font-family: @font-family-title !important;
+  font-weight: bold;
+  font-variant: small-caps;
+  margin-left: 0px;
+}
+
+#search {
+    input[type="submit"] {
+      display: none;
+    }
+}
+
+@media (max-width: @screen-sm-min) {
+  #search-button {
+    display: none;
+  }
+}
+
+@media (min-width: @screen-sm-min) {
+  #search {
+    display: none;
+    float: right;
+    padding: 0px;
+    margin-right: 8px;
+    width: 300px;
+  }
+}
+// Buttons ====================================================================
+
+.btn:active {
+  .box-shadow(none);
+}
+
+.btn-group.open .dropdown-toggle {
+  .box-shadow(none);
+}
+
+// Typography =================================================================
+
+.text-primary {
+  color: @brand-primary;
+}
+
+.text-success {
+  color: @brand-success;
+}
+
+.text-danger {
+  color: @brand-danger;
+}
+
+.text-warning {
+  color: @brand-warning;
+}
+
+.text-info {
+  color: @brand-info;
+}
+
+// Tables =====================================================================
+
+.table {
+  tr.success,
+  tr.warning,
+  tr.danger {
+    color: white;
+  }
+}
+
+// Forms ======================================================================
+
+.form-control,textarea.form-control,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  border-width: 2px;
+  .box-shadow(none);
+
+  &:focus {
+    .box-shadow(none);
+  }
+}
+
+.has-warning {
+  .help-block,
+  .control-label {
+    color: @brand-warning;
+  }
+
+  .form-control,
+  .form-control:focus {
+      border: 2px solid @brand-warning;
+  }
+}
+
+.has-error {
+  .help-block,
+  .control-label {
+    color: @brand-danger;
+  }
+
+  .form-control,
+  .form-control:focus {
+    border: 2px solid @brand-danger;
+  }
+}
+
+.has-success {
+  .help-block,
+  .control-label {
+    color: @brand-success;
+  }
+
+  .form-control,
+  .form-control:focus {
+    border: 2px solid @brand-success;
+  }
+}
+
+// Navs =======================================================================
+
+.pagination {
+  a {
+    color: white;
+
+    &:hover {
+        color: @text-color;
+      }
+  }
+
+  .disabled {
+    &>a,
+    &>a:hover,
+    &>a:focus,
+    &>span {
+       background-color: lighten(@brand-success, 15%);
+    }
+  }
+}
+
+ul.pager {
+  a {
+    color: white;
+    &:hover {
+      color: @text-color;
+    }
+  }
+
+  .disabled {
+    &>a,
+    &>a:hover,
+    &>a:focus,
+    &>span {
+      background-color: lighten(@brand-success, 15%);
+    }
+  }
+
+  .previous {
+    :before {
+      font-family: FontAwesome;
+      content: "\f104"; // fa-angle-left
+      margin-right: 5px; 
+    }
+  }
+
+  .next {
+    :after {
+      font-family: FontAwesome;
+      content: "\f105"; // fa-angle-right
+      margin-left: 5px; 
+    }
+  }
+}
+
+h1 + ul.pager {
+  margin: 0;
+
+  a {
+    color: @brand-success;
+    background: none;
+    margin: 0;
+    padding: 0;
+
+    &:hover {
+      color: @brand-primary;
+      background: none;
+    }
+  }
+
+  .disabled>a {
+    color: @gray;
+    background: none;
+
+    &:hover {
+      color: @gray;
+      background: none;
+    }
+  }
+}
+
+div.pager {
+  color: @brand-primary;
+  font-size: @font-size-small;
+  border-top: 1px solid @gray-dark;
+  padding-top: 3px;
+
+  .previous {
+    text-align: left;
+
+    div {
+      font-weight: bold;
+      margin-left: -15px;
+
+      + a {
+        margin-left: -5px;
+      }
+    }
+
+    div:before {
+      content: "\f104"; // fa-angle-left
+      font-family: FontAwesome;
+      margin-right: 5px;
+    }
+  }
+
+  .next {
+    text-align: right;
+
+    div {
+      font-weight: bold;
+      margin-right: -15px;
+
+      + a {
+        margin-right: -5px;
+      }
+    }
+
+    div:after{
+      content: "\f105"; // fa-angle-right
+      font-family: FontAwesome;
+      margin-left: 5px;
+    }
+  }
+}
+
+// Indicators =================================================================
+
+.alert {
+  a,
+  .alert-link {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
+// Progress bars ==============================================================
+
+.progress {
+  height: 10px;
+  .box-shadow(none);
+}
+
+// Containers =================================================================
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+#wrap > .container {
+  padding-top: 60px;
+}
+
+.well {
+  .box-shadow(none);
+  border-width: 0;
+}
+
+// Types ======================================================================
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  a {
+    color: @text-color;
+  }
+}
+
+h1 {
+  margin-bottom: 1px;
+  text-shadow: @gray-light 1px 1px 0px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: 600
+}
+
+ul {
+  list-style-type: square;
+}
+
+a.external:after {
+  content: "\f14c"; // fa-external-link-square
+  font-family: FontAwesome;
+  font-size: 0.5em;
+  margin-left: 4px;
+}
+
+a.external:hover:after,
+a.external:focus:after {
+  text-decoration: none !important;
+}
+
+a.image-reference:hover img {
+  border: 1px solid @link-color;
+}
+
+a.image-reference:after {
+  content: none;
+}
+
+pre, tt, code {
+  font-family: @font-family-monospace;
+  font-size: floor(@font-size-base * 0.75);
+}
+
+tt, code, pre.code {
+  color: @code-color;
+  background-color: @code-bg;
+  border: solid 1px @gray-light;
+  border-radius: 4px;
+}
+
+tt {
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 0 3px;
+
+  * {
+    padding: 0;
+  }
+}
+
+// Posts ======================================================================
+
+.postbox {
+  h1 {
+    a:hover,
+    a:focus {
+      text-decoration: none;
+      color: @link-color;
+    }
+  }
+
+  .meta {
+    margin-top: 3px;
+    border-top: 1px solid @gray-dark;
+    text-align: right;
+
+    .badge {
+      font-size: ceil(@font-size-base * 0.75);
+      text-shadow: @gray-darker 1px 1px 0px;
+    }
+  }
+
+  p {
+    margin-top: 15px;
+    text-align: justify;
+
+    + img {
+       margin-top: 10px;
+    }
+  }
+
+  p.more {
+    clear: both;
+  }
+
+  img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  img.border {
+    border: 1px solid @gray;
+  }
+
+  div img {
+    margin-top: 5px;
+  }
+
+  img.align-left {
+    margin-left: 2px;
+  }
+
+  img.align-right {
+    margin-right: 2px;
+  }
+}
+
+.body-content div.postbox:last-of-type, 
+.body-content article.postbox:last-of-type {
+  margin-bottom: 30px;
+}
+
+// Archive ====================================================================
+
+.postbox {
+  ul {
+    margin-top: 15px;
+  }
+}
+
+// Tags =======================================================================
+
+ul.bricks {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+ul.bricks > li {
+  display: inline;
+  background-color: lightblue;
+  padding: 8px;
+  border-radius: 5px;
+  line-height: 3;
+  white-space:nowrap;
+  margin: 3px;
+}
+
+.tag_rss {
+  margin: 15px 18px;
+
+  :after {
+    content: "\f143"; // fa-rss-square
+    font-family: FontAwesome;
+    font-size: 0.95em;
+    margin-left: 3px; 
+  }
+}
+
+// Pages ======================================================================
+
+.page {
+  margin-bottom: 30px;
+
+  p {
+    margin-top: 15px;
+    text-align: justify;
+  }
+}
+
+// Pages - About ==============================================================
+
+.author-card {
+  position: relative;
+  padding: 25px;
+  margin: 15px 5px 25px 5px;
+  border: 1px solid black;
+  box-shadow: @gray-light 3px 3px 0px;
+
+  h3 {
+    margin: -7px 0 5px 78px;
+    padding: 0;
+    font-size: ceil(@font-size-base * 1.15);
+  }
+
+  .author-avatar {
+     position: absolute;
+     top: 15px;
+     left: 15px;
+  }
+
+  ul {
+    margin-left: 42px;
+    min-height: 42px;
+  }
+
+  li {
+    margin-left: 0px;
+    list-style-type: none;
+    line-height: 18px;
+    text-overflow: clip;
+  }
+
+  a.external {
+    font-size: ceil(@font-size-base * 0.85);
+    text-overflow: clip;
+  }
+
+  a.external:after {
+    content: none !important;
+  }
+}
+
+// Pager ======================================================================
+
+.pager {
+  li {
+    a {
+      font-size: ceil(@font-size-base * 0.80);
+      padding: 3px 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+}
+
+// Footer =====================================================================
+
+footer {
+  min-height: 60px;
+  font-size: ceil(@font-size-base * 0.75);
+  color: #fff;
+  background-color: @navbar-default-bg;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  a {
+    white-space: nowrap;
+  }
+}
+
+// Fixes ======================================================================
+
+td.label {
+  /* Issue #290 */
+  background-color: inherit;
+}
+
+.footnote-reference {
+  /* Issue 290 */
+  vertical-align: super;
+  font-size: xx-small;
+}
+
+.caption {
+  /* Issue 292 */
+  text-align: center;
+}
+
+div.figure > img,
+div.figure > a > img {
+    /* Issue 292 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.sidebar, div.admonition, div.attention, div.caution, div.danger, div.error, div.hint, div.important, div.note, div.tip, div.warning {
+  /* Issue 277 */
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
