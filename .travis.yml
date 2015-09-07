@@ -1,0 +1,16 @@
+language: python
+python:
+  - "3.4"
+sudo: false
+before_script:
+  - export PATH="$HOME/node_modules/.bin:$PATH"
+  - pip install -r requirements.txt
+  - nikola build
+script:
+  - git checkout --orphan gh-pages
+  - git rm -r --cached pages themes posts plugins files conf.py README.md pages requirements.txt
+  - rm -rf .doit.db.db cache/ node_modules/ conf.pyc
+  - cp -R output/* .
+  - git add .
+  - git commit -am "Publishing..."
+  - git push origin gh-pages -f
