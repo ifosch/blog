@@ -15,4 +15,4 @@ script:
   - cp -R output/* .
   - git add .
   - git commit -am "Publishing..."
-  - git push "https://${GH_TOKEN}@github.com/EDyO/blog.git" gh-pages -f
+  - git push "https://${GH_TOKEN}@github.com/EDyO/blog.git" gh-pages -f >/dev/null 2>&1
