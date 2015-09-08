@@ -38,7 +38,9 @@ MAIN TRACKS
 --------------------------------
 
 DevOps BCN (http://www.meetup.com/DevOps-BCN-Group/) → Resumen del último meetup y previsión para los próximos.
+
 Europython (https://ep2015.europython.eu/) → Pequeño resumen de los hechos más relevantes que Edu y Natx han visto.
+
 Se busca DevOps → Debate sobre el hecho que las ofertas de trabajo ofrecen posiciones de DevOps.
 
 
