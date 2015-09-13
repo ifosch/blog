@@ -7,6 +7,7 @@
 .. image:: https://cloud.githubusercontent.com/assets/2912400/9839113/81814a0c-5a6f-11e5-928d-8f899736a0cb.jpg
    :alt: HP
    :align: left
+   :width: 180px
 
 HP_ ha estado presentando su plataforma Helion_, basada en OpenStack_, para permanecer en el mercado de la computación en la nube.
 Por ello están llevando a cabo una campaña de divulgación de la plataforma, de la que forman parte `estos cinco webinarios`_ que presentan.
