@@ -11,7 +11,7 @@
    :align: right
 
 AWS_ está poniéndose las pilas en cuanto a formación se refiere.
-Este `mes de septiembre propone una serie de webinarios`__ sobre diferentes servicios, entre ellos, algunos de los más nuevos.
+Este mes de septiembre propone una serie de webinarios sobre diferentes servicios, entre ellos, algunos de los más nuevos.
 Muy recomendables si os interesa trabajar con los servicios que AWS_ ofrece como Redshift_, Lambda_, DynamoDB_, Glacier_, `EC2 Container Service`_ y otros.
 
 .. TEASER_END
