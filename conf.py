@@ -8,7 +8,7 @@ BLOG_AUTHOR = "Entre Dev Y Ops"  # (translatable)
 BLOG_TITLE = "Entre Dev Y Ops"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://edyo.github.io/blog/"
+SITE_URL = "http://www.entredevyops.es/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
