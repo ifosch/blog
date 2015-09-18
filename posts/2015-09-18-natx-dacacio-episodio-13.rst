@@ -12,6 +12,8 @@
 
 En este podcast repasaremos próximos eventos, las noticias relevantes de los últimos dos meses y discutiremos sobre temas diversos: grupo de `DevOps BCN`_, `EuroPython 2015`_ y "Se busca DevOps".
 
+
+Esperamos que os guste.
 .. TEASER_END
 
 EVENTOS
@@ -31,7 +33,7 @@ NOTICIAS
 * Hacking Team, la compañía detrás de las herramientas de vigilancia policiales de muchos países, ha si hackeada: http://hipertextual.com/2015/07/hacking-team-hackeado , https://wikileaks.org/hackingteam/emails
 
 MAIN TRACKS
-==========
+===========
 
 * `DevOps BCN`_: Resumen del último meetup y previsión para los próximos.
 * `EuroPython 2015`_: Pequeño resumen de los hechos más relevantes que Edu y Natx han visto.
