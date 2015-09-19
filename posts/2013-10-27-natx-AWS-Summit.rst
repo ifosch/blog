@@ -83,7 +83,7 @@ Finalmente, se `comentaron casos de uso`_ de empresas españolas que utilizando 
 .. _Summit: https://aws.amazon.com/es/aws-summit-2013/barcelona/
 .. _AWS: `Amazon WS`_
 .. _`#awssummit`: https://twitter.com/search?q=%23awssummit
-.. _`Mapfre`: http://www.mapfre.com/
+.. _`Mapfre`: http://www.mapfre.es/
 .. _`Miquel Alimentació Grup`: http://www.miquel.es/
 .. _`IE Business School`: http://www.ie.edu/business-school/
 .. _S3: http://aws.amazon.com/es/s3/
