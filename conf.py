@@ -259,7 +259,7 @@ TAG_PATH = "tags"
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = [("edyopodcast", "http://feedpress.me/edyo")]
+REDIRECTIONS = [("edyopodcast/", "http://feedpress.me/edyo")]
 
 # Commands to execute to deploy. Can be anything, for example,
 # you may use rsync:
