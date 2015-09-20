@@ -1,7 +1,7 @@
 .. title: Novedades sobre la Distributed Matters BCN 2015
 .. author: Ignasi Fosch
 .. slug: novedades-distributed-matters-BCN-2015
-.. date: 2015/09/20 13:25
+.. date: 2015/09/20 12:05
 .. tags: Eventos,NoSQL
 
 .. image:: https://cloud.githubusercontent.com/assets/2912400/9980008/0e706560-5f89-11e5-835e-fbea9e75fec5.png
