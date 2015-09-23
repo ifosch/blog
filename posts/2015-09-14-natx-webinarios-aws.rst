@@ -36,4 +36,3 @@ El registro es gratuito.
 .. _`webinarios de septiembre`: https://aws.amazon.com/about-aws/events/monthlywebinarseries/
 .. _SNS: https://aws.amazon.com/es/sns/
 
-__ `webinarios de septiembre`_
