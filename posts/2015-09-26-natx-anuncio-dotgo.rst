@@ -46,6 +46,8 @@ Disfrutad!
 .. _Golang: http://golang.org/
 .. _`Rob Pike`: https://twitter.com/rob_pike
 .. _Docker: https://www.docker.com/
+.. _Datadog: https://www.datadoghq.com/
+.. _Exoscale: https://www.exoscale.ch/
 .. _`David Crawshaw`: https://twitter.com/davidcrawshaw
 .. _gomobile: https://github.com/golang/mobile
 .. _`Go Team`: http://golang.org/
