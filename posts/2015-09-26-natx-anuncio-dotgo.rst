@@ -34,6 +34,8 @@ Como en la primera edición, los ponentes son personajes relevantes en el mundo 
 
 Y todo esto estará presentado por `Blake Mizerany`_, creador de Sinatra_ y cocreador de Doozer_.
 
+**UPDATE**: Hemos conseguido un 20% de descuento en `la compra de la entrada`_.
+
 Disfrutad!
 
 
@@ -66,3 +68,4 @@ Disfrutad!
 .. _`Blake Mizerany`: https://twitter.com/bmizerany
 .. _Sinatra: http://www.sinatrarb.com/
 .. _Doozer: https://github.com/ha/doozerd
+.. _`la compra de la entrada`: http://dotgo2015.eventbrite.com/?discount=GOBARCELONA
