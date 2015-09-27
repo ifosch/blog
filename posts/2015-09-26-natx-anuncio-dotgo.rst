@@ -23,7 +23,7 @@ Como en la primera edición, los ponentes son personajes relevantes en el mundo 
 
 * `Rob Pike`_: Cocreador de Go_.
 * `David Crawshaw`_: Creador de gomobile_ y miembro del `Go Team`_.
-* `Marty Shoch`_: Creador de Bleve_.
+* `Marty Schoch`_: Creador de Bleve_.
 * `Verónica López`_: Ingeniera en `Ardan Labs`_.
 * `Alan Shreve`_: Creator of ngrok_.
 * `Jessica Frazelle`_: Miembro del equipo principal en Docker_.
@@ -64,7 +64,7 @@ Disfrutad!
 .. _`Fatih Arslan`: https://twitter.com/ftharsln
 .. _vim-go: https://github.com/fatih/vim-go
 .. _Kite: https://godoc.org/github.com/koding/kite
-.. _`Francesc Campy Flores`: https://twitter.com/francesc
+.. _`Francesc Campoy Flores`: https://twitter.com/francesc
 .. _`Blake Mizerany`: https://twitter.com/bmizerany
 .. _Sinatra: http://www.sinatrarb.com/
 .. _Doozer: https://github.com/ha/doozerd
