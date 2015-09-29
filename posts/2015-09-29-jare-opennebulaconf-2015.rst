@@ -9,7 +9,7 @@ El próximo 20 de octubre se inicia en Barcelona la Conferencia de `OpenNebulaCo
 
 .. TEASER_END
 
-La conferencia empieza el 20 y finaliza el 22 y según lo que vemos en su agenda_ se ha estructurado el primer dia como un dia pre-evento donde se empieza por la tarde y se realizan 3 eventos simultáneos:
+La conferencia empieza el 20 y finaliza el 22 y tal como anuncian en su agenda_ se ha estructurado el primer día como un día pre-evento donde se empieza por la tarde y se realizan 3 eventos simultáneos:
 
 * Un laboratorio para recién llegados
 * Un evento para personas con conocimientos avanzados en OpenNebula_
