@@ -1,7 +1,7 @@
 .. title: SSH: Transferencia de ficheros
 .. author: Eduardo Bellido Bellido
 .. slug: ssh-transferencia-ficheros
-.. date: 2015-11-10 10:00
+.. date: 2020-11-10 10:00
 .. tags: SSH, Guías, Herramientas
 
 Este artículo es el primero de una serie dedicada al protocolo `SSH o Secure Shell`_, un protocolo de acceso remoto a servidores altamente extendido en sistemas UN*X como GNU/Linux o FreeBSD. En los artículos trataremos de explicar el uso básico de este protocolo e iremos profundizando más en las capacidades avanzadas disponibles.
