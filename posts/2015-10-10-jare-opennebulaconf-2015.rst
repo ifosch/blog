@@ -1,7 +1,7 @@
 .. title: Las conferencias OpenNebulaConf 2015
 .. author: Javier Arellano
 .. slug: OpenNebula_2015
-.. date: 2015/10/10 21:00
+.. date: 2015/11/10 21:00
 .. tags: OpenNebula,Cloud
 
 Del 20 al 22 de octubre del 2015 tuvo lugar en Barcelona el `OpenNebulaConf 2015`_. Antes de nada me gustaría aclarar que esta no es una simple noticia, sino que se trata de un artículo de opinión ya que pude assistir los tres días gracias a la invitación que nos ofreció la organización y por mucho que quisiera, no podría separar mis experiencias de lo que formalmente sería la noticia, una vez aclarado este tema, relataré sin hacer un resumen exhaustivo de las charlas, haciendo una separación entre el taller del primer día y los dos días siguientes que fueron las charlas en sí.
