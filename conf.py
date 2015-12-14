@@ -15,6 +15,8 @@ SITE_URL = "http://www.entredevyops.es/"
 BLOG_EMAIL = "edyo@y10k.ws"
 BLOG_DESCRIPTION = "Entre Dev Y Ops es un blog dedicado, principalmente, a administradores de sistemas y devops, en castellano, en el que se irán comentando noticias, trucos y técnicas sobre tecnologias."  # (translatable)
 
+REDIRECTIONS = [("edyopodcast", "http://feedpress.me/edyo")]
+
 # Nikola is multilingual!
 #
 # Currently supported languages are:
