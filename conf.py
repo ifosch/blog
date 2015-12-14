@@ -15,7 +15,7 @@ SITE_URL = "http://www.entredevyops.es/"
 BLOG_EMAIL = "edyo@y10k.ws"
 BLOG_DESCRIPTION = "Entre Dev Y Ops es un blog dedicado, principalmente, a administradores de sistemas y devops, en castellano, en el que se irán comentando noticias, trucos y técnicas sobre tecnologias."  # (translatable)
 
-REDIRECTIONS = [("edyopodcast", "http://feedpress.me/edyo")]
+
 
 # Nikola is multilingual!
 #
@@ -261,7 +261,8 @@ TAG_PATH = "tags"
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = [("podcast.html", "http://feedpress.me/edyo/")]
+REDIRECTIONS = [("podcast.html", "http://feedpress.me/edyo/"),("edyopodcast", "http://feedpress.me/edyo")]
+
 
 # Commands to execute to deploy. Can be anything, for example,
 # you may use rsync:
