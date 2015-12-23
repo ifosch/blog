@@ -74,11 +74,21 @@ Durante la instalación nos aparece una ventana en ncurses que nos solicita una 
 	   
 Al finalizar, tenemos los siguientes ficheros en máquina:
 
+La clave privada para el certificado:
 .. code-block:: bash 
-	lrwxrwxrwx 1 root root 37 Dec  7 13:04 privkey.pem -> ../../archive/acacio.cat/privkey1.pem
-	lrwxrwxrwx 1 root root 39 Dec  7 13:04 fullchain.pem -> ../../archive/acacio.cat/fullchain1.pem
-	lrwxrwxrwx 1 root root 35 Dec  7 13:04 chain.pem -> ../../archive/acacio.cat/chain1.pem
-	lrwxrwxrwx 1 root root 34 Dec  7 13:04 cert.pem -> ../../archive/acacio.cat/cert1.pem
+	lrwxrwxrwx 1 root root 37 Dec  7 13:04 privkey.pem -> ../../archive/acacio.cat/privkey.pem
+
+Todos los certificados, incluyendo1 el certificado del servidor:
+.. code-block:: bash 
+	lrwxrwxrwx 1 root root 39 Dec  7 13:04 fullchain.pem -> ../../archive/acacio.cat/fullchain.pem
+	
+Todos los certificados, excluyendo el certificado del servidor:
+.. code-block:: bash 
+	lrwxrwxrwx 1 root root 35 Dec  7 13:04 chain.pem -> ../../archive/acacio.cat/chain.pem
+
+El certificado del servidor:
+.. code-block:: bash 
+	lrwxrwxrwx 1 root root 34 Dec  7 13:04 cert.pem -> ../../archive/acacio.cat/cert.pem
 
 En teoría ya tenemos certificados válidos para publicar con nuestro webserver. En mi caso estamos hablando de un nginx, que lo he configurado añadiendo las siguientes lineas:
 	
@@ -86,6 +96,15 @@ En teoría ya tenemos certificados válidos para publicar con nuestro webserver.
         listen       5.79.75.212:443;
         ssl    on;
         ssl_certificate    /etc/letsencrypt/live/acacio.cat/cert.pem;
+        ssl_certificate_key    /etc/letsencrypt/live/acacio.cat/privkey.pem;
+        server_name  acacio.cat;
+
+Con esta configuración estamos securizando el dominio, pero si hacemos pruebas de acceso nos encontramos que hay clientes que no encuentran el certificado como confiable. Para que esto suceda, necesitamos enviar toda la cadena de certificados, por tal que el cliente sepa validarlo con la CA de IdenTrust. Por tanto, configuramos el servidor para tal efecto:
+
+.. code-block:: bash 
+        listen       5.79.75.212:443;
+        ssl    on;
+        ssl_certificate    /etc/letsencrypt/live/acacio.cat/fullchain.pem;
         ssl_certificate_key    /etc/letsencrypt/live/acacio.cat/privkey.pem;
         server_name  acacio.cat;
 
