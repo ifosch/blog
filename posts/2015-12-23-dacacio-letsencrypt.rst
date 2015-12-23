@@ -4,20 +4,29 @@
 .. date: 2015/12/23 16:30
 .. tags: Laboratorio,Let's Encrypt
 
-El pasado día 03/12/2015 Let's Encrypt entró en fase beta pública. La idea con la cual nace este proyecto es la de ofrecer **gratuitamente** certificados X.509 para encriptación TLS a través de procesos automáticos, eliminando los complejos y engorrosos procesos de creación, validación, firma, instalación y renovación de los certificados para la securización de sitios web.
+El pasado día 03/12/2015 `Let's Encrypt <https://letsencrypt.org/>`_ entró en fase beta pública. La idea con la cual nace este proyecto es la de ofrecer **gratuitamente** certificados X.509 para encriptación TLS a través de procesos automáticos, eliminando los complejos y engorrosos procesos de creación, validación, firma, instalación y renovación de los certificados para la securización de sitios web.
 
 A continuación paso a detallar la prueba que hice.
 
 .. TEASER_END
 
-Seguimos los pasos descritos descritos en la web de Let\'s Encrypt https://letsencrypt.org/howitworks/ 
+Comentar que la prueba la he realizado sobre mi VPS con CentOS 6.7, con Python 2.6 y ejecutando todos los pasos como root.
+
+Para realizar la instalación he seguido los pasos descritos descritos en la web de Let\'s Encrypt https://letsencrypt.org/howitworks/ 
+
+Instalamos el cliente descargándolo directamente de Github:
 
 .. code-block:: bash
 
 	git clone https://github.com/letsencrypt/letsencrypt
+
+A continuación ejecutamos el comando:
+
+.. code-block:: bash
+
 	./letsencrypt-auto --help
  
-Te instala de manera directa los siguientes paquetes
+Que te instala de manera directa, si no los tienes, los siguientes paquetes
 
 .. code-block:: bash
 
@@ -30,8 +39,13 @@ Te instala de manera directa los siguientes paquetes
 	Package redhat-rpm-config-9.0.3-44.el6.centos.noarch already installed and latest version
 	Package ca-certificates-2015.2.4-65.0.1.el6_6.noarch already installed and latest version
 
+Llegados a este punto intento solicitar el certificado de mi dominio:
 
-En mi caso aparece el siguiente mensaje debido a que utilizo python 2.6
+.. code-block:: bash
+
+	./letsencrypt-auto certonly --standalone -d acacio.cat
+
+Pero en mi caso aparece el siguiente mensaje debido a que utilizo python 2.6
 
 .. code-block:: bash
 
@@ -45,7 +59,6 @@ Tal como indica, volvemos a lanzar el comando con dicho flag y nos permite avanz
 
 	./letsencrypt-auto certonly --debug --standalone -d acacio.cat
 
-	[*@* letsencrypt]# ./letsencrypt-auto certonly --debug --standalone -d acacio.cat
 	Updating letsencrypt and virtual environment dependencies.../root/.local/share/letsencrypt/lib/python2.6/site-packages/cryptography/__init__.py:25: DeprecationWarning: Python 2.6 is no longer supported by the Python core team, please upgrade your Python.
 	  DeprecationWarning
 	./root/.local/share/letsencrypt/lib/python2.6/site-packages/cryptography/__init__.py:25: DeprecationWarning: Python 2.6 is no longer supported by the Python core team, please upgrade your Python.
@@ -86,7 +99,7 @@ La clave privada para el certificado:
 
 	lrwxrwxrwx 1 root root 37 Dec  7 13:04 privkey.pem -> ../../archive/acacio.cat/privkey.pem
 
-Todos los certificados, incluyendo1 el certificado del servidor:
+Todos los certificados, incluyendo el certificado del servidor:
 
 .. code-block:: bash
 
