@@ -1,7 +1,7 @@
 .. title: Probando Let's Encrypt: certificados SSL para todos!
 .. author: David Acacio
 .. slug: laboratorio_lets_encrypt
-.. date: 2015/12/20 21:00
+.. date: 2015/12/23 16:30
 .. tags: Laboratorio,Let's Encrypt
 
 El pasado día 03/12/2015 Let's Encrypt entró en fase beta pública. A continuación paso a detallar la prueba que hice así como las primeras impresiones.
