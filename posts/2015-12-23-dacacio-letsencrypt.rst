@@ -10,13 +10,15 @@ El pasado día 03/12/2015 Let's Encrypt entró en fase beta pública. A continua
 
 Seguimos los pasos descritos descritos en la web de Let's Encrypt https://letsencrypt.org/howitworks/ 
 
-.. code-block::bash
+.. code-block:: bash
+
 	git clone https://github.com/letsencrypt/letsencrypt
 	./letsencrypt-auto --help
  
 Te instala de manera directa los siguientes paquetes
 
-.. code-block::bash 
+.. code-block:: bash
+
 	Package git-1.7.1-3.el6_4.1.x86_64 already installed and latest version
 	Package gcc-4.4.7-16.el6.x86_64 already installed and latest version
 	Package dialog-1.1-9.20080819.1.el6.x86_64 already installed and latest version
