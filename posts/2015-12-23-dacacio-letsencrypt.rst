@@ -104,7 +104,7 @@ El certificado del servidor:
 
 En teoría ya tenemos certificados válidos para publicar con nuestro webserver. En mi caso estamos hablando de un nginx, que lo he configurado añadiendo las siguientes lineas:
 	
-.. code-block:: Nginx
+.. code-block:: nginx
 
         listen       5.79.75.212:443;
         ssl    on;
@@ -114,7 +114,7 @@ En teoría ya tenemos certificados válidos para publicar con nuestro webserver.
 
 Con esta configuración estamos securizando el dominio, pero si hacemos pruebas de acceso nos encontramos que hay clientes que no encuentran el certificado como confiable. Para que esto suceda, necesitamos enviar toda la cadena de certificados, por tal que el cliente sepa validarlo con la CA de IdenTrust. Por tanto, configuramos el servidor para tal efecto:
 
-.. code-block:: Nginx
+.. code-block:: nginx
 
         listen       5.79.75.212:443;
         ssl    on;
