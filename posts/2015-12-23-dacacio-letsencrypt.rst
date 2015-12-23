@@ -4,11 +4,13 @@
 .. date: 2015/12/23 16:30
 .. tags: Laboratorio,Let's Encrypt
 
-El pasado día 03/12/2015 Let's Encrypt entró en fase beta pública. A continuación paso a detallar la prueba que hice así como las primeras impresiones.
+El pasado día 03/12/2015 Let's Encrypt entró en fase beta pública. La idea con la cual nace este proyecto es la de ofrecer **gratuitamente** certificados X.509 para encriptación TLS a través de procesos automáticos, eliminando los complejos y engorrosos procesos de creación, validación, firma, instalación y renovación de los certificados para la securización de sitios web.
+
+A continuación paso a detallar la prueba que hice.
 
 .. TEASER_END
 
-Seguimos los pasos descritos descritos en la web de Let's Encrypt https://letsencrypt.org/howitworks/ 
+Seguimos los pasos descritos descritos en la web de Let\'s Encrypt https://letsencrypt.org/howitworks/ 
 
 .. code-block:: bash
 
@@ -67,10 +69,10 @@ Tal como indica, volvemos a lanzar el comando con dicho flag y nos permite avanz
 	 - Congratulations! Your certificate and chain have been saved at
 	   /etc/letsencrypt/live/acacio.cat/fullchain.pem. Your cert will
 	   expire on 2016-03-06. To obtain a new version of the certificate in
-	   the future, simply run "Let"'"s Encrypt again.
-	 - If like Let"'"s Encrypt, please consider supporting our work by:
+	   the future, simply run Let s Encrypt again.
+	 - If like Let s Encrypt, please consider supporting our work by:
 
-	   Donating to ISRG / Let"'"s Encrypt:   https://letsencrypt.org/donate
+	   Donating to ISRG / Let s Encrypt:   https://letsencrypt.org/donate
 	   Donating to EFF:                    https://eff.org/donate-le
 
 
