@@ -10,13 +10,13 @@ El pasado día 03/12/2015 Let's Encrypt entró en fase beta pública. A continua
 
 Seguimos los pasos descritos descritos en la web de Let's Encrypt https://letsencrypt.org/howitworks/ 
 
-.. code-block:: bash
+.. code-block::bash
 	git clone https://github.com/letsencrypt/letsencrypt
 	./letsencrypt-auto --help
  
 Te instala de manera directa los siguientes paquetes
 
-.. code-block:: bash 
+.. code-block::bash 
 	Package git-1.7.1-3.el6_4.1.x86_64 already installed and latest version
 	Package gcc-4.4.7-16.el6.x86_64 already installed and latest version
 	Package dialog-1.1-9.20080819.1.el6.x86_64 already installed and latest version
@@ -29,14 +29,14 @@ Te instala de manera directa los siguientes paquetes
 
 En mi caso aparece el siguiente mensaje debido a que utilizo python 2.6
 
-.. code-block:: bash 
+.. code-block::bash 
 	WARNING: Python 2.6 support is very experimental at present...
 	if you would like to work on improving it, please ensure you have backups
 	and then run this script again with the --debug flag!
 
 Tal como indica, volvemos a lanzar el comando con dicho flag y nos permite avanzar
 
-.. code-block:: bash 
+.. code-block::bash 
 	./letsencrypt-auto certonly --debug --standalone -d acacio.cat
 
 	[*@* letsencrypt]# ./letsencrypt-auto certonly --debug --standalone -d acacio.cat
@@ -75,11 +75,11 @@ Durante la instalación nos aparece una ventana en ncurses que nos solicita una 
 Al finalizar, tenemos los siguientes ficheros en máquina:
 
 La clave privada para el certificado:
-.. code-block:: bash 
+.. code-block::bash 
 	lrwxrwxrwx 1 root root 37 Dec  7 13:04 privkey.pem -> ../../archive/acacio.cat/privkey.pem
 
 Todos los certificados, incluyendo1 el certificado del servidor:
-.. code-block:: bash 
+.. code-block::bash 
 	lrwxrwxrwx 1 root root 39 Dec  7 13:04 fullchain.pem -> ../../archive/acacio.cat/fullchain.pem
 	
 Todos los certificados, excluyendo el certificado del servidor:
@@ -87,12 +87,12 @@ Todos los certificados, excluyendo el certificado del servidor:
 	lrwxrwxrwx 1 root root 35 Dec  7 13:04 chain.pem -> ../../archive/acacio.cat/chain.pem
 
 El certificado del servidor:
-.. code-block:: bash 
+.. code-block:: bash
 	lrwxrwxrwx 1 root root 34 Dec  7 13:04 cert.pem -> ../../archive/acacio.cat/cert.pem
 
 En teoría ya tenemos certificados válidos para publicar con nuestro webserver. En mi caso estamos hablando de un nginx, que lo he configurado añadiendo las siguientes lineas:
 	
-.. code-block:: bash 
+.. code-block:: bash
         listen       5.79.75.212:443;
         ssl    on;
         ssl_certificate    /etc/letsencrypt/live/acacio.cat/cert.pem;
@@ -101,7 +101,7 @@ En teoría ya tenemos certificados válidos para publicar con nuestro webserver.
 
 Con esta configuración estamos securizando el dominio, pero si hacemos pruebas de acceso nos encontramos que hay clientes que no encuentran el certificado como confiable. Para que esto suceda, necesitamos enviar toda la cadena de certificados, por tal que el cliente sepa validarlo con la CA de IdenTrust. Por tanto, configuramos el servidor para tal efecto:
 
-.. code-block:: bash 
+.. code-block:: bash
         listen       5.79.75.212:443;
         ssl    on;
         ssl_certificate    /etc/letsencrypt/live/acacio.cat/fullchain.pem;
