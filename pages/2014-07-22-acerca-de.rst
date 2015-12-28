@@ -64,6 +64,7 @@ David Acacio
 ============
 
 - `@david_acacio`_
+- `http://acacio.cat/`_
 
 .. class:: author-avatar img-thumbnail
 .. image:: https://0.gravatar.com/avatar/a4906de70aaed95d209697943bcdf8a2
@@ -96,3 +97,4 @@ Me acerqué al *networking* hace más de diez años y quedé “enredado” haci
 .. _`@dareste`: https://twitter.com/dareste
 .. _`http://www.jarellano.es/`: http://www.jarellano.es
 .. _`http://edubxb.net/`: http://edubxb.net
+.. _`http://acacio.cat/`: http://acacio.cat
