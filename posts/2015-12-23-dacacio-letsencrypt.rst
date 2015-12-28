@@ -4,6 +4,12 @@
 .. date: 2015/12/23 16:30
 .. tags: Laboratorio,Let's Encrypt
 
+.. image:: https://cloud.githubusercontent.com/assets/2761032/12018247/c3198b70-ad60-11e5-8736-57bd99ad0ca3.png
+   :alt: Lets Encrypt
+   :align: left
+   :width: 120px
+   :height: 120px
+
 El pasado día 03/12/2015 `Let's Encrypt <https://letsencrypt.org/>`_ entró en fase beta pública. La idea con la cual nace este proyecto es la de ofrecer **gratuitamente** certificados X.509 para encriptación TLS a través de procesos automáticos, eliminando los complejos y engorrosos procesos de creación, validación, firma, instalación y renovación de los certificados para la securización de sitios web.
 
 A continuación paso a detallar la prueba que hice.
