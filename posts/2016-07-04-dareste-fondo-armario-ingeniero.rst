@@ -2,7 +2,7 @@
 .. author: Daniel Aresté
 .. slug: fondo-armario-ingeniero
 .. date: 2016/07/04 12:00
-.. tags: Full Stack Engineer, basicos
+.. tags: Full Stack Engineer, Básicos, Herramientas
 
 Mi mujer siempre me repite, medio en broma medio en serio, que visto como si cobrara la mitad de lo que cobro. Es un buen resumen de mi sensibilidad hacia el mundo de la moda, y os debería dejar claro que, a pesar del título, este post no va a tratar sobre imagen personal. 
 
