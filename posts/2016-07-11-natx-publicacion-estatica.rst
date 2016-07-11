@@ -10,8 +10,8 @@ Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticament
 
 .. TEASER_END
 
-Aunque el concepto de sitio estático pueda no ser demasiado conocido, el de un [sistema de gestión de contenigos](https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos), CMS por sus siglas en inglés, seguro que lo es más.
-La mayoría conoceréis softwares como [Wordpress](https://es.wordpress.org/), [Joomla](https://www.joomla.org/), [Drupal](https://www.drupal.org/), [Plone](https://plone.org/), y muchos otros más.
+Aunque el concepto de sitio estático pueda no ser demasiado conocido, el de un `sistema de gestión de contenidos`_, CMS por sus siglas en inglés, seguro que lo es más.
+La mayoría conoceréis softwares como `WordPress`_, `Joomla`_, `Drupal`_, `Plone`_, y muchos otros más.
 Estas son aplicaciones que permiten a usuarios no técnicos y con relativamente pocos conocimientos de Internet y Webm, crear sites de una forma más o menos sencilla y con bastante buenos resultados.
 
 ¡Ojo! Esa última frase tiene una pequeña trampa... Lo explicamos mejor:
@@ -53,6 +53,23 @@ El principal inconveniente, como se ha explicado antes, es que hay que escribir 
 Para ello se pueden usar los generadores de sitios estáticos, que no son más que un programa que lee una entrada, consistente en ficheros en formatos como ReST, Markdown, o similares, y crea los ficheros estáticos (HTML, CSS, imágenes, ...).
 Muchos de estos generadores, incluso, disponen de plugins y temas, para facilitar el trabajo con ellos, pero todos acaban generando los ficheros.
 
-Si a eso, le sumamos el uso de herramientas como [Travis-CI](https://travis-ci.org), junto con servicios como [GitHub Pages](https://pages.github.com/), resulta muy fácil disponer de un sitio web estático sin demasiado trabajo.
-En [Entre Dev Y Ops](http://entredevyops.es), utilizamos [Nikola](http://getnikola.com); en el blog de [GolangBCN](http://golangbcn.org), usamos [Hugo](http://gohugo.io); en el blog de [PyBCN](http://pybcn.org), usamos [Lektor](http://getlektor.com). Todos ellos publican mediante Travis en GitHub Pages. Los repositorios, son todos públicos, tanto el de [Entre Dev Y Ops](https://github.com/EDyO/blog), el del blog de [GolangBCN](https://github.com/GolangBCN/golangbcn.github.io/), o el de [PyBCN](https://github.com/pybcn/pybcn.github.io).
+Si a eso, le sumamos el uso de herramientas como `Travis-CI`_, junto con servicios como `GitHub Pages`_, resulta muy fácil disponer de un sitio web estático sin demasiado trabajo.
+En el `blog de Entre Dev Y Ops`_, utilizamos `Nikola`_; en el `blog de GolangBCN`_, `Hugo`_; y en el `blog de PyBCN`_, usamos `Lektor`_. Todos ellos publican mediante `Travis-CI`_ en `GitHub Pages`_. Los repositorios, son todos públicos, tanto el de `Entre Dev Y Ops`_, el del blog de `GolangBCN`_, o el de `PyBCN`_.
 Como este artículo ya se ha extendido un poco, dejamos para próximas entregas los detalles sobre cómo funcionan y cómo se publica con ellos.
+
+.. _`sistema de gestión de contenidos`: https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos
+.. _`WordPress`: https://es.wordpress.org/
+.. _`Joomla`: https://www.joomla.org/
+.. _`Drupal`: https://www.drupal.org/
+.. _`Plone`: https://plone.org/
+.. _`Travis-CI`: https://travis-ci.org
+.. _`GitHub Pages`: https://pages.github.com/
+.. _`blog de Entre Dev Y Ops`: http://entredevyops.es
+.. _`Nikola`: http://getnikola.com
+.. _`blog de GolangBCN`: http://golangbcn.org
+.. _`Hugo`: http://gohugo.io
+.. _`blog de PyBCN`: http://pybcn.org
+.. _`Lektor`: http://getlektor.com
+.. _`Entre Dev Y Ops`: https://github.com/EDyO/blog
+.. _`GolangBCN`: https://github.com/GolangBCN/golangbcn.github.io/
+.. _`PyBCN`: https://github.com/pybcn/pybcn.github.io
