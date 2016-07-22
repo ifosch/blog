@@ -40,4 +40,4 @@ mincss==0.8.1
 requests==2.3.0
 tornado==3.2.2
 webassets==0.10
-
+Markdown==2.6.6

@@ -149,10 +149,12 @@ DATE_FORMAT = '%d/%m/%Y'
 #
 
 POSTS = (
+    ("posts/*.md", "posts", "post.tmpl"),
     ("posts/*.rst", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
 )
 PAGES = (
+    ("pages/*.md", "", "page.tmpl"),
     ("pages/*.rst", "", "page.tmpl"),
     ("pages/*.txt", "", "page.tmpl"),
 )
