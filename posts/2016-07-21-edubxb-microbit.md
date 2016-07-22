@@ -37,4 +37,4 @@ Personalmente, aunque dispongo de una Raspberry Pi, que únicamente utilizo como
 
 Por otro lado, también puede servirnos para aprender a programar, o aprender Python para el que no conozca el lenguaje, todo esto de una forma divertida realizando pequeñas animaciones con los leds, pequeños juegos gracias a la capacidad interactiva que nos brindan los dos botones, o lo que vuestra imaginación os dicte...
 
-Algo que no he dicho, y que muchos os preguntaréis, ¿y su precio?, pues unos 17€ aproximadamente, nada desorbitado para el partido que personalmente creo le podemos sacar. Así que ya no hay escusa para no ponerse subirse a la ola del *Internet of Things* ;).
+Algo que no he dicho, y que muchos os preguntaréis, ¿y su precio?, pues unos 17€ aproximadamente, nada desorbitado para el partido que personalmente creo le podemos sacar. Así que ya no hay escusa para no subirse a la ola del *Internet of Things* ;).
