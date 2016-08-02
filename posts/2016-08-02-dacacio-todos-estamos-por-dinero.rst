@@ -4,6 +4,12 @@
 .. date: 2016/08/02 23:55
 .. tags: Opinión
 
+.. image:: https://cloud.githubusercontent.com/assets/2761032/17347866/cc4fbf3a-5912-11e6-87b6-e220d5f81ecb.jpg
+   :alt: Money
+   :align: left
+   :width: 120px
+   :height: 120px
+   
 No os engañéis, todos, del primero al último, estamos aquí por el dinero, y el que diga lo contrario está muy equivocado.
 
 .. TEASER_END
