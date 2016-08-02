@@ -9,7 +9,8 @@
    :align: left
    :width: 120px
    :height: 80px
-   
+
+
 No os engañéis, todos, del primero al último, estamos aquí por el dinero, y el que diga lo contrario está muy equivocado.
 
 .. TEASER_END
