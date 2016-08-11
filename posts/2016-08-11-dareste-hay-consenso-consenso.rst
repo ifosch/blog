@@ -4,6 +4,12 @@
 .. date: 2016/08/11 9:00
 .. tags: Básicos, Algoritmos
 
+.. image:: https://cloud.githubusercontent.com/assets/5310624/17581465/55bed744-5fa6-11e6-93ee-f037e8f7b624.png
+   :alt: Students
+   :align: right
+   :width: 200px
+   :height: 200px
+
 Imaginad un grupo de alumnos que toma apuntes en clase, anotando todo lo que un profesor dice. 
 Este profesor, a menos que le indiquen lo contrario, no se detiene y asume que sus palabras llegan correctamente a todos los estudiantes. 
 Si hay algún despistado, siempre puede preguntar al de al lado *("oye, ¿qué acaba de decir?")* sin interrumpir la clase.
