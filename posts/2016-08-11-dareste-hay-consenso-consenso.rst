@@ -7,8 +7,8 @@
 .. image:: https://cloud.githubusercontent.com/assets/5310624/17581465/55bed744-5fa6-11e6-93ee-f037e8f7b624.png
    :alt: Students
    :align: right
-   :width: 200px
-   :height: 200px
+   :width: 125px
+   :height: 125px
 
 Imaginad un grupo de alumnos que toma apuntes en clase, anotando todo lo que un profesor dice. 
 Este profesor, a menos que le indiquen lo contrario, no se detiene y asume que sus palabras llegan correctamente a todos los estudiantes. 
