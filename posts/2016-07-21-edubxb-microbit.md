@@ -5,7 +5,7 @@
 .. tags: Desarrollo, Hardware, Internet of Things, Python
 
 
-<img src='/images/bbc-microbit.jpg' alt='BBC micro:bit' class='border align-right' height='200' weight='200'/>
+<img src='/images/bbc-microbit.jpg' alt='BBC micro:bit' class='border align-right' height='180' width='240'/>
 
 Que el fenómeno [*Internet of Things*](https://es.wikipedia.org/wiki/Internet_de_las_cosas) (también conocido en su forma abreviada como IoT) está de moda es más que un hecho, este nuevo concepto está aquí para quedarse, y por bastante tiempo.
 
