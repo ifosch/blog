@@ -1,7 +1,7 @@
 .. title: Usando Fail2Ban para securizar SSH
 .. author: David Acacio Albareda
 .. slug: fail2ban-ssh
-.. date: 2016/09/05 19:55
+.. date: 2016/09/08 15:30
 .. tags: Fail2Ban, SSH
 
 <img src='https://cloud.githubusercontent.com/assets/2761032/18147970/796bbae0-6fd7-11e6-91dc-feb4e6aa9afa.jpg' alt='Fail2Ban' class='align-left' height='80' width='200'/>
