@@ -15,7 +15,7 @@ Claramente mi servidor estaba bajo un ataque para conseguir acceso SSH.
 
 En principio fue algo que no me preocupó, por lo que vi en los mensajes estaban intentando acceder con el usuario root y tenía el login deshabilitado, por tanto todo intento sería en vano. Pero igualmente es algo que no se tenía que tomar a la ligera, e igual que tenía ese servicio bajo ataque podría suceder con cualquier otro, sin olvidar que depende del origen del ataque podrían llegar a saturar el SSH y perder la gestión de mi máquina.
 
-Para "protegerme" de esta situación me planteé dos opciones:
+Para "protegerme" de esta situación me planteé dos opciones: 
 
 1. Acudir a mi proveedor de servicios y contratar algún sistema de [IDS](https://es.wikipedia.org/wiki/Sistema_de_detecci%C3%B3n_de_intrusos) con el coste que ello supone.
 2. Montarme alguna solución en el propio servidor para controlar estas situaciones.
