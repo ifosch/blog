@@ -6,7 +6,7 @@
 
 <img src='https://cloud.githubusercontent.com/assets/2761032/18147970/796bbae0-6fd7-11e6-91dc-feb4e6aa9afa.jpg' alt='Fail2Ban' class='align-left' height='80' width='200'/>
 
-Hace poco realizando tareas de mantenimiento en mi servidor personal vi varios mensajes en los los logs que no me gustaron nada: *Failed password for root from 121.18.238.22 port 40618 ssh2*.
+Hace poco realizando tareas de mantenimiento en mi servidor personal vi varios mensajes en los logs que no me gustaron nada: *Failed password for root from 121.18.238.22 port 40618 ssh2*.
 
 Claramente mi servidor estaba bajo un ataque para conseguir acceso SSH.
 
