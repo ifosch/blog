@@ -8,7 +8,7 @@ Tal como comentamos el pasado artículo [*Publicación estática*](http://www.en
 
 <!-- TEASER_END -->
 
-Usando algunos de los servicios de Amazon pondremos nuestra página estática online, no intentamos explicar todo el funcionamiento de Amazon ya que sería una tarea titánica para este pequeño articulo, solamente nos centraremos en los servicios necesarios para exponer una página estática.
+Usando algunos de los servicios de Amazon pondremos nuestra página estática online, no intentamos explicar todo el funcionamiento de Amazon ya que sería una tarea titánica para este pequeño artículo, solamente nos centraremos en los servicios necesarios para exponer una página estática.
 
 ## Consola web
 
@@ -91,7 +91,7 @@ y al acceder a *Add bucket policy* nos aparecerá un recuadro donde tenemos que 
 
 En este caso dondever.es es el nombre del *bucket* que hemos creado y por lo tanto, se ha de sustituir por el nombre de cada uno de los *buckets* que tengamos. 
 
-Ahora sí, ya podemos acceder a la URL y ver nuestro index.html correctamente, pero realmente el nombre : dondever.es.s3-website-eu-west-1.amazonaws.com no es muy bonito, para ello podemos usar on dominio propio, por ello presentamos *Route53*.
+Ahora sí, ya podemos acceder a la URL y ver nuestro index.html correctamente, pero realmente el nombre : dondever.es.s3-website-eu-west-1.amazonaws.com no es muy bonito, para ello podemos usar un dominio propio, por ello presentamos *Route53*.
 
 ##Route53
 
