@@ -4,11 +4,11 @@
 .. date: 2016/09/30 21:15
 .. tags: Podcast
 
-<img src='/images/AmazonWebservices.png' alt='Amazon Web Services' class='align-right' height='80' width='200'/>
+<img src='/images/edyo-podcast.png' alt='Amazon Web Services' class='align-right' height='80' width='200'/>
 
 Otro episodio listo para descargar de nuestro podcast, en esta ocasión entrevistamos a [Xavier Soler](http://xavisb.com), Ingeniero de Sistemas en [Typeform](www.typeform.com). 
 
-.. TEASER_END
+<!-- TEASER_END -->
 
 Para los que no conozcáis la empresa, se trata de un servicio de creación de formularios on-line, como podría ser Google Forms, pero que va más allá, haciendo que los formularios sean toda una experiencia. Tenéis más detalles en el podcast ;).
 
