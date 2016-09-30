@@ -6,7 +6,7 @@
 
 <img src='/images/edyo-podcast.png' alt='Amazon Web Services' class='align-right' height='80' width='200'/>
 
-Otro episodio listo para descargar de nuestro podcast, en esta ocasión entrevistamos a [Xavier Soler](http://xavisb.com), Ingeniero de Sistemas en [Typeform](www.typeform.com). 
+Otro episodio listo para descargar de nuestro podcast, en esta ocasión entrevistamos a [Xavier Soler](http://xavisb.com), Ingeniero de Sistemas en [Typeform](https://www.typeform.com). 
 
 <!-- TEASER_END -->
 
