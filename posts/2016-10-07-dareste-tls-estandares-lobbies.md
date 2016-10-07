@@ -6,8 +6,6 @@
 
 <img src='https://cloud.githubusercontent.com/assets/5310624/19206789/b782e002-8ceb-11e6-8121-7860d9049fab.png' alt='Fail2Ban' class='align-right' height='100' width='150'/>
 
-https://cloud.githubusercontent.com/assets/5310624/19206789/b782e002-8ceb-11e6-8121-7860d9049fab.png
-
 El grupo de trabajo de IETF encargado de crear la versión 1.3 de TLS lleva trabajando en él desde abril de 2014. 
 Llevan ya [16 borradores], el último de este mismo septiembre, así que la publicación del estándar definitivo 
 es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.
