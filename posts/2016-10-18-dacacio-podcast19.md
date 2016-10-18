@@ -4,7 +4,7 @@
 .. date: 2016/10/18 10:15
 .. tags: Podcast
 
-<img src='/images/edyo-podcast.png' alt='EDyO Podcast' class='align-right' height='110' width='110'/>
+<img src='/images/edyo-podcast.png' alt='EDyO Podcast' class='align-left' height='110' width='110'/>
 
 En este episodio debatimos sobre serverless: qué es, para qué sirve y diferentes casos de usos. También presentamos dos secciones nuevas: preguntas y recomendaciones.
 
