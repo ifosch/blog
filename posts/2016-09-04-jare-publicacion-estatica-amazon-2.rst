@@ -4,7 +4,7 @@
 .. date: 2016/09/04 12:00
 .. tags: Amazon WS, Automatización, Herramientas, Web
 
-Continuamos con el curso de páginas estáticas de Amazon, pero esta vez vamos a subir las páginas de  a  Amazon. Elegimos un sistema de generación de contenido estático. En la siguiente `página`_ hay un listado muy extenso de este tipo de software  
+Continuamos con el curso de páginas estáticas de Amazon, pero esta vez vamos a subir las páginas a Amazon. Elegimos un sistema de generación de contenido estático. En la siguiente `página`_ hay un listado muy extenso de este tipo de software  
 
 .. TEASER_END
 
