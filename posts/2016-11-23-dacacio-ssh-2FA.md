@@ -2,7 +2,7 @@
 .. author: David Acacio 
 .. slug: ssh-2FA
 .. date: 2016/11/23 00:25
-.. tags: ssh, 2FA, Google Authenticator
+.. tags: SSH, 2FA, Google Authenticator
 
 <img src='https://cloud.githubusercontent.com/assets/2761032/19434535/4c54eb54-9466-11e6-8a7b-4aa4459dc02f.png' alt='Ssh Google Authenticator' class='align-right' height='200' width='200'/>
 
