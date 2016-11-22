@@ -6,7 +6,7 @@
 
 <img src='https://cloud.githubusercontent.com/assets/2761032/19434535/4c54eb54-9466-11e6-8a7b-4aa4459dc02f.png' alt='Ssh Google Authenticator' class='align-right' height='150' width='150'/>
 
-Tal como comenté en mi [pasado artículo en este mismo blog] (http://www.entredevyops.es/posts/fail2ban-ssh.html) hace poco detecté que alguna mala persona estaba intentando acceder a mi servidor privado mediante fuerza bruta por SSH. En el artículo de hoy vamos a explicar cómo activar el 2FA (doble factor de autenticación) para acceso SSH con [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2). 
+Tal como comenté en mi [pasado artículo en este mismo blog](http://www.entredevyops.es/posts/fail2ban-ssh.html) hace poco detecté que alguna mala persona estaba intentando acceder a mi servidor privado mediante fuerza bruta por SSH. En el artículo de hoy vamos a explicar cómo activar el 2FA (doble factor de autenticación) para acceso SSH con [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2). 
 
 <!-- TEASER_END -->
 
