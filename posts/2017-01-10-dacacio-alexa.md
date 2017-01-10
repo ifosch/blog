@@ -2,7 +2,7 @@
 .. author: David Acacio 
 .. slug: seguridad-alexa
 .. date: 2017/01/10 23:25
-.. tags: Alexa, seguridad, IoT
+.. tags: Alexa, Seguridad, IoT
 
 <img src='https://cloud.githubusercontent.com/assets/2761032/21814539/eaad251a-d759-11e6-9484-fcae118cc767.PNG' alt='Ssh Google Authenticator' class='align-right' height='200' width='200'/>
 
