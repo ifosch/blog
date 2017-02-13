@@ -39,7 +39,7 @@ Simplifiquemos y consideremos la habilidad o el conocimiento como algo cuantitat
 En ese caso, si confrontamos los conceptos "**_Lo que crees que sabes_**" y "**_Lo que realmente sabes_**" en dos ejes y trazamos una bisectriz,
 el cuadrante quedará dividido en dos zonas: la de los "**Dunning-Krueger**" y la de los "**Impostores**".
 
-<img src='https://cloud.githubusercontent.com/assets/5310624/22907833/68a6805e-f24b-11e6-87ba-41710342e40c.png' alt='Diagrama' height='200' width='300'/>
+<img src='https://cloud.githubusercontent.com/assets/5310624/22907833/68a6805e-f24b-11e6-87ba-41710342e40c.png' alt='Diagrama' height='300' width='500'/>
 
 A la bisectriz me gusta llamarla "**_Línea virtuosa_**", porque al marcar la zona donde lo que creemos saber coincide con lo que realmente sabemos,
 evita que pequemos de humildad o de soberbia. Además, ¿no era Aristóteles quien hablaba de la virtud del punto medio?
