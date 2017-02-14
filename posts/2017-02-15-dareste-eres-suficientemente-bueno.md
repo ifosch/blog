@@ -23,8 +23,8 @@ acabo descubriendo que la realidad se parece mucho más a esto:
 
 <img src='https://cloud.githubusercontent.com/assets/5310624/22907841/6ea951ac-f24b-11e6-9148-37928bc1d268.png' alt='Solapamiento' height='200' width='300'/>
 
-
-Apuesto a que os habéis sentido así alguna vez. A este fenómeno psicológico se le conoce como [síndrome del impostor],
+Apuesto a que os habéis sentido así alguna vez. 
+A este fenómeno psicológico se le conoce como [síndrome del impostor],
 y aunque de forma ortodoxa se defina como casi una patología que paraliza a quien la sufre dejándole en un perpetuo estado de sensación de fraude,
 el término se usa también de una forma más laxa para describir el sesgo cognitivo de alguien que cree ser menos hábil que los demás,
 cuando en realidad los iguala o incluso supera en capacidades.
@@ -40,18 +40,23 @@ el cuadrante quedará dividido en dos zonas: la de los "**Dunning-Krueger**" y l
 <img src='https://cloud.githubusercontent.com/assets/5310624/22907833/68a6805e-f24b-11e6-87ba-41710342e40c.png' alt='Diagrama'/>
 
 A la bisectriz me gusta llamarla "**_Línea virtuosa_**", porque al marcar la zona donde lo que creemos saber coincide con lo que realmente sabemos,
-evita que pequemos de humildad o de soberbia. Además, ¿no era Aristóteles quien hablaba de la virtud del punto medio?
+evita que pequemos de humildad o de soberbia. 
+Además, ¿no era Aristóteles quien hablaba de la virtud del punto medio?
 
 No sé vosotros, pero yo estoy constantemente esforzándome para ampliar conocimientos sin separarme demasiado de esa línea.
 Desgraciadamente no es nada fácil; en mi caso, tiendo a sobrevalorar mis conocimientos en áreas de mi zona de confort,
-y a minusvalorarlo en otras. Mis estrategias para mantenerme y crecer en zona virtuosa son:
+y a infravalorarlo en otras. 
+Mis estrategias para mantenerme y crecer en zona virtuosa son:
 
 - **Explica**: no pierdas oportunidad de explicar cosas. Enseñar es una forma muy efectiva de descubrir si realmente somos expertos en un tema o no. Preparar una presentación es una forma extraordinaria de autoaprendizaje.
 - **Pregunta**: parece obvio, pero.... la forma más efectiva de aprender algo es preguntando. El máximo ancho de banda de transferencia de conocimiento se da entre dos personas con un boli y un papel (o cualquiera de sus equivalentes en forma de herramientas de colaboración).
-- **Colabora**: el mundo se parece a los círculos de conocimiento solapados de la primera imagen. Colaborar (que no es nada más que explicar y preguntar alternativamente) hace crecer el radio de esos círculos; nos hacemos más expertos en lo que éramos, aprendemos cosas nuevas, y aumentamos la superfície solapada.
+- **Colabora**: el mundo se parece a los círculos de conocimiento solapados de la primera imagen. Colaborar (que no es nada más que explicar y preguntar alternativamente) hace crecer el radio de esos círculos; nos hacemos más expertos en lo que éramos, aprendemos cosas nuevas, y aumentamos la superficie solapada.
 - **No tengas miedo a decir "No lo sé"**. Cuando dices en alto "No lo sé" ocurren dos cosas mágicas. Primero, te haces consciente de los límites de tu conocimiento (con lo cual, si no lo eras, escapas de la "zona Dunning-Krueger"). Segundo, si tu interlocutor es mínimamente generoso va a regalarte una explicación, gracias a la cual vas a ascender por la línea virtuosa.
 
-Termino haciendo honor a lo que acabo de decir y lanzando algunas preguntas: ¿Qué otros métodos usáis para manteneros en la zona virtuosa? ¿Tenéis trucos para identificar rápidamente si estáis en "zona Dunning-Krueger" o "zona Impostor"? ¿Tenéis o habéis tenido compañeros de trabajo "Dunning-Krueger"? Si es el caso, ¿cómo lidiábais (o lidiáis) con ellos?
+Termino haciendo honor a lo que acabo de decir y lanzando algunas preguntas: 
+¿Qué otros métodos usáis para manteneros en la zona virtuosa? ¿Tenéis trucos para identificar rápidamente si estáis en "zona Dunning-Krueger" o "zona Impostor"? 
+¿Tenéis o habéis tenido compañeros de trabajo "Dunning-Krueger"? 
+Si es el caso, ¿cómo lidiabais (o lidiáis) con ellos?
 
 [síndrome del impostor]: https://en.wikipedia.org/wiki/Impostor_syndrome
 [síndrome Dunning-Kruger]: https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect
