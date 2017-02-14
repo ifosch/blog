@@ -9,8 +9,6 @@
 Hay momentos en los que pienso que soy un impostor y que solamente es cuestión de tiempo el que me descubran.
 <!-- TEASER_END -->
 
-## Hace unas semanas...
-
 Este sentimiento suele coincidir con situaciones en las que profesionalmente me toca exponerme a los demás en un área que está fuera de mi zona de confort.
 Puede ser presentar algo al resto de compañeros ( ... _¿Realmente sé de lo que hablo? Pero si esta gente tiene el triple de experiencia que yo_ ... ),
 entrar en llamadas técnicas con clientes ( ... _me van a machacar a preguntas que no sabré responder_ ... ),
