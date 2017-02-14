@@ -22,7 +22,27 @@ Os voy a relatar cómo he realizado la instalación del script que cada día se 
 
 Os voy a relatar, a modo de guía paso a paso, cómo ejecutar scripts de manera planificada, emulando lo que haríamos editando el crontab de nuestro servidor Linux.
 
-* Lo primero que haremos será descargar los ficheros del [repositorio de Github](https://github.com/dacacioa/packtpub_lambda) y adaptar el fichero .sh con las credenciales correctas. Una vez hecho esto generaremos un .zip que contenga los dos ficheros, el .py y el .sh.
+* Lo primero que haremos será descargar los ficheros del [repositorio de Github](https://github.com/dacacioa/packtpub_lambda) que básicamente son:
+
+  1.- El fichero .py que se encagará de ejecutar la llamada a sistema lanzado un shell para cargar el fichero .sh
+
+  ```Python
+  from __future__ import print_function
+
+  import commands
+
+  def lambda_handler(event, context):
+      if commands.getstatusoutput('sh ./packtpub.sh')[0] == 0 :
+          return "Ok, enjoy your free book"
+  ```
+
+  2.- El fichero .sh que ejecutará un curl en el contenedor donde se ejecute el código. Dicho curl ya está preparada para hacer login con las credenciales que indiquemos (email y contraseña), buscará el enlace del libro gratuito y simulará un click sobre dicho enalce.
+
+  ```Bash
+  rm /tmp/user.cookie; curl -b /tmp/user.cookie https://www.packtpub.com$(curl -L -k -d 'email=your%40email.com&password=yourpassword&op=Login&form_build_id=form-29b891c23331f6a85f502eef8b133303&form_id=packt_user_login_form' -b /tmp/user.cookie -c /tmp/user.cookie 'https://www.packtpub.com/packt/offers/free-learning' | grep -i 'freelearning-claim' | awk '{print $2}' | cut -d'"' -f2)
+  ```
+
+  Es importante adaptar el fichero .sh con las credenciales correctas para que todo funcione. Una vez hecho esto generaremos un .zip que contenga los dos ficheros, el .py y el .sh.
 
 * Nos conectaremos al panel de control de AWS y accederemos a la sección de Lambda:
 
