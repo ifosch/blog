@@ -10,7 +10,7 @@ Son muchas las citas y reflexiones que se han dicho y escrito sobre los errores 
 Nadie está exento de equivocarse, pero aprender de esos mismos errores es aquello que permite mejorar y avanzar.
 
 Reflexionar partiendo de errores que se han cometido, por nosotros mismos o otros; Identificar causas, medidas, incluso otros errores cometidos en su resolución, es una tarea difícil y, a veces, dura.
-Pero resistirse a hacerlo por ~~el orgullo de algunos~~ cualquier motivo, es un error mucho mayor que cualquier otro.
+Pero resistirse a hacerlo por <s>el orgullo de algunos</s> cualquier motivo, es un error mucho mayor que cualquier otro.
 
 <!-- TEASER_END -->
 
