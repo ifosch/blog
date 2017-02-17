@@ -29,7 +29,7 @@ Fue mi compañero quien vió las credenciales, revisé la cuenta y vi que sólo 
 Además las credenciales no eran visibles en el `HEAD`, y pensé que tampoco había mucho problema en arreglarlo tras el fin de semana.
 
 Al día siguiente, me encontré en mi buzón un mensaje de alguien que mencionaba haber encontrado esas claves.
-Eso me sorprendió bastante... sinceramente, no creí que nadie mirara las contribuciones ese nivel en proyectos tan poco relevantes.
+Eso me sorprendió bastante... sinceramente, no creí que nadie mirara las contribuciones a ese nivel en proyectos tan poco relevantes.
 Se trataba de un *bot* que su creador usaba para buscar trabajo; detectaba credenciales, y enviaba el mail automáticamente, avisando de los peligros de haber subido las credenciales y dando el contacto del creador y su perfil.
 Por supuesto, me apresuré a corregir la historia del repositorio para evitar que el *commit* fuera visible y a cancelar las credenciales.
 
