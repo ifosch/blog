@@ -53,7 +53,7 @@ Posteriormente, creamos un sistema de copia de seguridad periódico.
 
 ## Propuesta
 
-La propuesta es que nos [enviéis](mailto:info@entredevyops.es) ~~vuestras cagadas~~ vuestros errores para que los comentemos, anónimamente, en nuestro podcast.
+La propuesta es que nos [enviéis](mailto:info@entredevyops.es) <s>vuestras cagadas</s> vuestros errores para que los comentemos, anónimamente, en nuestro podcast.
 De este modo, todos nuestros oyentes podrán aprender de los errores de otros.
 
 Créditos de la imagen de cabecera: Creada por [Meredith Atwater] para [opensource.com]
