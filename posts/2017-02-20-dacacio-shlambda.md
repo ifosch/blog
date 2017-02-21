@@ -20,7 +20,7 @@ La última parte que nos quedaría es ver cómo realizamos la subida de dichos f
 
 Os voy a relatar cómo he realizado la instalación del script que cada día se conecta a Packtpub y "compra" el libro gratuito. El código lo podéis localizar en [este repositorio de Github](https://github.com/dacacioa/packtpub_lambda) (importante: tendríais que adaptar el fichero .sh con vuestras credenciales de Packtpub, es decir, con vuestro email y contraseña)
 
-A continuación os explico, a modo de guía paso a paso, cómo ejecutar scripts de manera planificada, emulando lo que haríamos editando el crontab de nuestro servidor Linux.
+Dejadme que os cuente, a modo de guía paso a paso, cómo ejecutar scripts de manera planificada, emulando lo que haríamos editando el crontab de nuestro servidor Linux.
 
 * Lo primero que haremos será descargar los ficheros del [repositorio de Github](https://github.com/dacacioa/packtpub_lambda) que básicamente son:
 
