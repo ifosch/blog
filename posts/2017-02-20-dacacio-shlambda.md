@@ -6,7 +6,7 @@
 
 <img src='https://cloud.githubusercontent.com/assets/2761032/22906212/da5bb104-f243-11e6-96e0-f7d9341c64a3.png' alt='AWS Lambda' class='align-right' height='200' width='200'/>
 
-Llevo un tiempo dándole vueltas a migrar de mi servidor virtual privado hacia el cloud, en concreto hacia AWS, pero uno de los motivos que más me echan para atrás es todos los scripts, la mayor parte en shell script, que tengo programados para ejecutarse diariamente en mi servidor y que realizan tareas de lo más útiles. De todos ellos destacaría el que tengo para que cada día me "recolecte" el libro electrónico gratuito que publica [Packtpub](https://www.packtpub.com). Pues bien, parece que este impedimento ha llegado a su fin, ya que utilizando un pequeño truco se puede ejecutar shell scripts en Lambda.
+Llevo un tiempo dándole vueltas a migrar de mi servidor virtual privado hacia el cloud, en concreto hacia AWS, pero uno de los motivos que más me echan para atrás es todos los scripts, la mayor parte en shell script, que tengo programados para ejecutarse diariamente en mi servidor y que realizan tareas de lo más útiles. De todos ellos destacaría el que tengo para que cada día me "recolecte" el libro electrónico gratuito que publica [Packtpub](https://www.packtpub.com). Pues bien, parece que este impedimento ha llegado a su fin, ya que utilizando un pequeño truco se pueden ejecutar shell scripts en Lambda.
 
 A continuación, os explico cómo he migrado mis shell scripts a Lambda.
 
@@ -20,7 +20,7 @@ La última parte que nos quedaría es ver cómo realizamos la subida de dichos f
 
 Os voy a relatar cómo he realizado la instalación del script que cada día se conecta a Packtpub y "compra" el libro gratuito. El código lo podéis localizar en [este repositorio de Github](https://github.com/dacacioa/packtpub_lambda) (importante: tendríais que adaptar el fichero .sh con vuestras credenciales de Packtpub, es decir, con vuestro email y contraseña)
 
-Os voy a relatar, a modo de guía paso a paso, cómo ejecutar scripts de manera planificada, emulando lo que haríamos editando el crontab de nuestro servidor Linux.
+A continuación os explico, a modo de guía paso a paso, cómo ejecutar scripts de manera planificada, emulando lo que haríamos editando el crontab de nuestro servidor Linux.
 
 * Lo primero que haremos será descargar los ficheros del [repositorio de Github](https://github.com/dacacioa/packtpub_lambda) que básicamente son:
 
