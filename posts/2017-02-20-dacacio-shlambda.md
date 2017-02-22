@@ -25,9 +25,7 @@ Dejadme que os cuente, a modo de guía paso a paso, cómo ejecutar scripts de ma
 * Lo primero que haremos será descargar los ficheros del [repositorio de Github](https://github.com/dacacioa/packtpub_lambda) que básicamente son:
 
   1.- El fichero .py que se encagará de ejecutar la llamada a sistema lanzado un shell para cargar el fichero .sh
-
-  ```python
-  
+```
   from __future__ import print_function
 
   import commands
@@ -35,11 +33,11 @@ Dejadme que os cuente, a modo de guía paso a paso, cómo ejecutar scripts de ma
   def lambda_handler(event, context):
       if commands.getstatusoutput('sh ./packtpub.sh')[0] == 0 :
           return "Ok, enjoy your free book"
-  ```
+```
 
   2.- El fichero .sh que ejecutará un curl en el contenedor donde se ejecute el código. Dicho curl ya está preparada para hacer login con las credenciales que indiquemos (email y contraseña), buscará el enlace del libro gratuito y simulará un click sobre dicho enalce.
 
-  ```bash
+  ```
   rm /tmp/user.cookie; curl -b /tmp/user.cookie https://www.packtpub.com$(curl -L -k -d 'email=your%40email.com&password=yourpassword&op=Login&form_build_id=form-29b891c23331f6a85f502eef8b133303&form_id=packt_user_login_form' -b /tmp/user.cookie -c /tmp/user.cookie 'https://www.packtpub.com/packt/offers/free-learning' | grep -i 'freelearning-claim' | awk '{print $2}' | cut -d'"' -f2)
   ```
 
