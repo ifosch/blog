@@ -27,6 +27,7 @@ Dejadme que os cuente, a modo de guía paso a paso, cómo ejecutar scripts de ma
   1.- El fichero .py que se encagará de ejecutar la llamada a sistema lanzado un shell para cargar el fichero .sh
 
   ```Python
+  
   from __future__ import print_function
 
   import commands
@@ -92,7 +93,7 @@ Dejadme que os cuente, a modo de guía paso a paso, cómo ejecutar scripts de ma
 
  * Nos tendría que aparecer una pantalla similar a la que pongo a continuación con el mensaje "Ok, enjoy your free book". Importante: Packtpub limita a un libro al día, por tanto, por muchas veces que lo ejecutemos sólo tendremos disponible en nuestra cuenta de Packtpub una copia del libro).
 
- <img src='https://cloud.githubusercontent.com/assets/2761032/22908406/95b7f822-f24e-11e6-873a-11c441259996.png' alt='AWS Lambda TEst Ok' class='align-center' />
+ <img src='https://cloud.githubusercontent.com/assets/2761032/22908406/95b7f822-f24e-11e6-873a-11c441259996.png' alt='AWS Lambda TEst Ok' width=50% class='align-center' />
 
 ¡Enhorabuena! Ya tenéis funcionando en Lambda una tarea programada que se ejecuta cada día y lanza un shell script para "recolectar" de manera automática los libros gratuitos de Packtpub. Y por cierto, todo a coste 0, ya que el consumo de ejecutar estos procesos es tan bajo que lo cubre la capa gratuita de AWS.
 
