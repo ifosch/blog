@@ -35,12 +35,15 @@ Dejadme que os cuente, a modo de guía paso a paso, cómo ejecutar scripts de ma
   def lambda_handler(event, context):
       if commands.getstatusoutput('sh ./packtpub.sh')[0] == 0 :
           return "Ok, enjoy your free book"
+ 
   ```
 
   2.- El fichero .sh que ejecutará un curl en el contenedor donde se ejecute el código. Dicho curl ya está preparada para hacer login con las credenciales que indiquemos (email y contraseña), buscará el enlace del libro gratuito y simulará un click sobre dicho enalce.
 
   ```Bash
+  
   rm /tmp/user.cookie; curl -b /tmp/user.cookie https://www.packtpub.com$(curl -L -k -d 'email=your%40email.com&password=yourpassword&op=Login&form_build_id=form-29b891c23331f6a85f502eef8b133303&form_id=packt_user_login_form' -b /tmp/user.cookie -c /tmp/user.cookie 'https://www.packtpub.com/packt/offers/free-learning' | grep -i 'freelearning-claim' | awk '{print $2}' | cut -d'"' -f2)
+  
   ```
 
   Es importante adaptar el fichero .sh con las credenciales correctas para que todo funcione. Una vez hecho esto generaremos un .zip que contenga los dos ficheros, el .py y el .sh.
@@ -89,11 +92,11 @@ Dejadme que os cuente, a modo de guía paso a paso, cómo ejecutar scripts de ma
   * Seleccionamos "Scheduled Event"
   * Y pulsamos "Save and Test"
 
-  <img src='https://cloud.githubusercontent.com/assets/2761032/22908297/f2be5f80-f24d-11e6-899a-db037f1c581b.png' alt='AWS Test Event' class='align-center' />
+  <img src='https://cloud.githubusercontent.com/assets/2761032/22908297/f2be5f80-f24d-11e6-899a-db037f1c581b.png' alt='AWS Test Event' width=80% class='align-center' />
 
  * Nos tendría que aparecer una pantalla similar a la que pongo a continuación con el mensaje "Ok, enjoy your free book". Importante: Packtpub limita a un libro al día, por tanto, por muchas veces que lo ejecutemos sólo tendremos disponible en nuestra cuenta de Packtpub una copia del libro).
 
- <img src='https://cloud.githubusercontent.com/assets/2761032/22908406/95b7f822-f24e-11e6-873a-11c441259996.png' alt='AWS Lambda TEst Ok' width=50% class='align-center' />
+ <img src='https://cloud.githubusercontent.com/assets/2761032/22908406/95b7f822-f24e-11e6-873a-11c441259996.png' alt='AWS Lambda TEst Ok' width=80% class='align-center' />
 
 ¡Enhorabuena! Ya tenéis funcionando en Lambda una tarea programada que se ejecuta cada día y lanza un shell script para "recolectar" de manera automática los libros gratuitos de Packtpub. Y por cierto, todo a coste 0, ya que el consumo de ejecutar estos procesos es tan bajo que lo cubre la capa gratuita de AWS.
 
