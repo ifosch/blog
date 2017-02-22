@@ -26,8 +26,7 @@ Dejadme que os cuente, a modo de guía paso a paso, cómo ejecutar scripts de ma
 
   1.- El fichero .py que se encagará de ejecutar la llamada a sistema lanzado un shell para cargar el fichero .sh
 
-  ```
-  
+  ```python 
   from __future__ import print_function
 
   import commands
