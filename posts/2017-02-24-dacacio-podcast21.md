@@ -8,8 +8,6 @@
 
 En este podcast debatimos sobre el incidente que el pasado 31 de Enero del 2017 dejó a [Gitlab](https://gitlab.com) sin servicio unos 18 horas.
 
-<!-- TEASER_END -->
-
 # Links de interés:
 
 * [Postmortem de Gitlab](https://about.gitlab.com/2017/02/10/postmortem-of-database-outage-of-january-31/)
