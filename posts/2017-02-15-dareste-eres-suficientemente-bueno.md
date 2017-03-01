@@ -4,7 +4,7 @@
 .. date: 2017/02/15 23:25
 .. tags: Filosofía, Formación, Opinión
 
-<img src='https://cloud.githubusercontent.com/assets/5310624/22907908/c94c4a6a-f24b-11e6-83f9-d81dc988b9da.jpg' alt='Impostor' class='align-left' height='200' width='200'/>
+<img src='https://cloud.githubusercontent.com/assets/5310624/22907908/c94c4a6a-f24b-11e6-83f9-d81dc988b9da.jpg' alt='Impostor' class='align-right' height='200' width='200'/>
 
 Hay momentos en los que pienso que soy un impostor y que solamente es cuestión de tiempo el que me descubran.
 <!-- TEASER_END -->
