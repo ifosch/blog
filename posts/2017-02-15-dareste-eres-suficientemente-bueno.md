@@ -1,6 +1,6 @@
 .. title: ¿Eres lo suficientemente bueno?
 .. author: Daniel Aresté
-.. slug: true-stories
+.. slug: eres-suficientemente-bueno
 .. date: 2017/03/01 12:00
 .. tags: Filosofía, Formación, Opinión
 
