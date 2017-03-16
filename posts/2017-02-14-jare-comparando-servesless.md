@@ -1,10 +1,10 @@
 .. title: Comparando Serverless
 .. author: Javier Arellano
 .. slug: comparando-serverless
-.. date: 2017/09/14 03:14
+.. date: 2017/03/16 03:14
 .. tags: Servesless, Amazon WS, Azure
 
-El líder indiscutible del cloud es AWS, pero tiene un competidor que le sigue de cerca. Bueno, siendo realistas no tan de cerca, pero que se ha acercado mucho en estos últimos tiempos. 
+El líder indiscutible del cloud es AWS, pero tiene un competidor que le sigue de cerca. Bueno, siendo realistas no tan de cerca, pero que se ha acercado mucho en estos últimos tiempos.
 
 Hemos visto el avance de [Lambda](https://aws.amazon.com/es/lambda/details/), y como pasó de ser un anuncio en el re:Invent del 2014, a ocupar varias charlas en el re:Invent del año pasado. Teniendo en cuenta que ahora mismo, tenemos el sistema distribuido entre: el lambda de siempre, en el [snowball](https://aws.amazon.com/es/snowball/details/) y próximamente en  la ejecución lambda de los [nodos edge de cloudfront](https://pages.awscloud.com/lambda-at-edge-preview.html)  y en los productos que usen [AWS Greengrass](https://aws.amazon.com/es/greengrass/),  pero la pregunta es: ¿cual es la herramienta de Azure para combatir Lambda?
 
