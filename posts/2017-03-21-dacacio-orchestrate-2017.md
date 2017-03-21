@@ -10,6 +10,8 @@ El próximo día 06 de Abril de 2017 tiene lugar en Barcelona,, de la mano de [b
 
 Algunas de las tecnologías que se hablarán serán Docker, Kubernetes y Tensorflow.
 
+Nos complace anunciar que ** la organización del Orchestrate ha puesto a disposición de entredevyops una entrada para sortear entre todos nuestros seguidores.**
+
 <!-- TEASER_END -->
 
 A continuación, os dejamos el programa de la conferencia:
@@ -25,6 +27,6 @@ A continuación, os dejamos el programa de la conferencia:
  * 16.15 – Guillem Hernandez – Jenkins Automated Functional Testing with parametrized Pipelines
  * 17.15 – Talk to be announced soon
 
-Nos complace anunciar que ** la organización del Orchestrate ha puesto a disposición de entredevyops una entrada para sortear entre todos nuestros seguidores.** Estad atentos a nuestra cuenta de twitter [@entredevyops](https://twitter.com/entredevyops) para saber cómo hacerse con ella.
+Estad atentos a nuestra cuenta de twitter [@entredevyops](https://twitter.com/entredevyops) para saber cómo hacerse con una entrada.
 
 Os vemos en el [Orchestrate 2017](https://ti.to/blended/orchestrate-2017/en) .
