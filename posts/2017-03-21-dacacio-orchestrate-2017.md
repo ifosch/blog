@@ -10,7 +10,7 @@ El próximo día 06 de Abril de 2017 tiene lugar en Barcelona,, de la mano de [b
 
 Algunas de las tecnologías que se hablarán serán Docker, Kubernetes y Tensorflow.
 
-=== TEASER END ===
+<!-- TEASER_END -->
 
 A continuación, os dejamos el programa de la conferencia:
 
