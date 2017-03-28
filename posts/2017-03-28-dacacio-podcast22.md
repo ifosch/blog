@@ -16,15 +16,10 @@ En este podcast hablamos de la Orchestrate 2017 y PyData 2017. Por otro lado com
 * [Anuncio de la PyData BCN 2017](https://pydata.org/barcelona2017/)
 * [Caída de S3](https://aws.amazon.com/es/message/41926/ )
 * [Vulnerabilidad de Cloudflare](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/?utm_content=buffere476a&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
-* Vault7:
-  * https://es.wikipedia.org/wiki/Vault_7 
-  * https://wikileaks.org/ciav7p1/ 
-  * http://www.entredevyops.es/posts/seguridad-alexa.html
-  * https://twitter.com/ian_surewould/status/836645989972918272/video/1
-  * http://www.imdb.com/title/tt4786824/ 
+* [Vault7](https://es.wikipedia.org/wiki/Vault_7)
+  
+# Recomendaciones:
 
-* Recomendaciones:
-
-  * [Agile Samurai](https://www.amazon.es/Agile-Samurai-Software-Pragmatic-Programmers/dp/1934356581)
-  * [api.ai](https://api.ai/)
-  * [Dame la voz](http://blog.damelavoz.es)
+ * [Agile Samurai](https://www.amazon.es/Agile-Samurai-Software-Pragmatic-Programmers/dp/1934356581)
+ * [api.ai](https://api.ai/)
+ * [Dame la voz](http://blog.damelavoz.es)
