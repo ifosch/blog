@@ -21,16 +21,16 @@ Tras esto, [Andrew Martin] habló sobre cómo las tecnologías de contenedores i
 Empezando con una revisión de los últimos ataques que han ido apareciendo, para explicar cómo el uso de contenedores puede ayudar o, en ocasiones, complicar la implementación de la seguridad.
 Aunque los conceptos de seguridad no han evolucionado mucho, las herramientas se están viendo complementadas con utilidades específicas para usar con contenedores.
 
-Por motivos logísticos, hubo un cambio en el programa, y [Samuel Cozannet], de [Ubuntu], explicó cómo herramientas como [Juju], [MAAS], o [snaps] se pueden utilizar para desplegar aplicaciones sobre clusters de contenedores.
+Por motivos logísticos, hubo un cambio en el programa, y [Samuel Cozannet], de [Ubuntu], explicó de qué modo herramientas como [Juju], [MAAS], o [snaps] se pueden utilizar para desplegar aplicaciones sobre clusters de contenedores.
 Aunque no se habló mucho de Tensorflow, el planteamiento encajaba con su uso, pero también debería ser posible usarlo para otros tipos de aplicaciones.
 
 Tras la comida, [Snadeep Dinesh] presentó el uso de [Kubernetes Federation], [StatefulSets] y otros mecanismos de [Kubernetes] para desplegar microservicios a nivel global.
 Siendo un tema que venía a encajar con el de los [Operators], podría haber sido interesante tenerlos seguidos, incluso en orden inverso.
 
-Luego, [Guillem Hernández] explicó cómo [Jeknins] puede utilizar [Pipelines] para automatizar el testeo funcional.
+Luego, [Guillem Hernández] explicó cómo [Jenkins] puede utilizar [Pipelines] para automatizar el testeo funcional.
 No deja de sorprender cómo [Groovy] ha encontrado en éste tema un [buen caso de uso].
 
-Finalmente, [Jon Nordby] charló sobre cómo por las características de rendimiento de distintas aplicaciones, poniendo como ejemplo [MsgFlo] y [GuvScale], el uso de sistemas de mensajes y colas, como [RabbitMQ], puede ser tan interesante.
+Finalmente, [Jon Nordby] charló sobre por qué, por las características de rendimiento de distintas aplicaciones, poniendo como ejemplo [MsgFlo] y [GuvScale], el uso de sistemas de mensajes y colas, como [RabbitMQ], puede ser tan interesante.
 
 [Codeworks]: https://codeworks.me
 [Orchestrate 2017]: https://ti.to/blended/orchestrate-2017/en
