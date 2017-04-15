@@ -1,7 +1,7 @@
 .. title: Crónica de el Orchestrate 2017
 .. author: Ignasi Fosch
 .. slug: cronica-orchestrate-2017
-.. date: 2017/04/14 17:35
+.. date: 2017/04/29 19:50
 .. tags: DevOps, Eventos, Herramientas, Integración Contínua
 
 <img src='https://cloud.githubusercontent.com/assets/2761032/24148829/bb4decaa-0e40-11e7-9007-41080697e259.PNG' alt='AWS Lambda' class='align-right' height='75' width='200'/>
@@ -34,6 +34,7 @@ Finalmente, [Jon Nordby] charló sobre por qué, por las características de ren
 
 [Codeworks]: https://codeworks.me
 [Orchestrate 2017]: https://ti.to/blended/orchestrate-2017/en
+[anunciamos]: http://www.entredevyops.es/posts/orchestrate-2017.html
 [blended.io]: https://blended.io
 [Kubernetes]: https://kubernetes.io/
 [Luke Bond]: https://github.com/lukebond
@@ -46,7 +47,7 @@ Finalmente, [Jon Nordby] charló sobre por qué, por las características de ren
 [Juju]: https://www.ubuntu.com/cloud/juju
 [MAAS]: https://maas.io/
 [snaps]: https://www.ubuntu.com/desktop/snappy
-[Sandeep Dinesh]: https://twitter.com/sandeepdinesh?lang=es
+[Snadeep Dinesh]: https://twitter.com/sandeepdinesh?lang=es
 [Kubernetes Federation]: https://kubernetes.io/docs/user-guide/federation/
 [StatefulSets]: https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
 [Guillem Hernández]: https://twitter.com/guillemhs?lang=es
