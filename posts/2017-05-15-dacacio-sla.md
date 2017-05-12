@@ -41,15 +41,10 @@ La parte de storage de Microsoft vemos que también tiene el mismo SLA que el st
 
 Os lo resumo una pequeña tabla:
 
-|   | EC2/Virutal Machines  | Storage  | databases  |
+|   | EC2/Virutal Machines | Storage | Databases |
 |---|---|---|---|
-| AWS  | 99,95%  |  99,90% | 99,95%  |
-| Microsoft  | 99,95%  |  99,90% | 99,90% |
-
-EC2/Virutal Machines - Storage - databases
-AWS 99,95% - 99,90% - 99,95%
-Microsoft 99,95% - 99,90% - 99,90% 
-
+| AWS | 99,95% | 99,90% | 99,95% |
+| Microsoft | 99,95% | 99,90% | 99,90% |
 
 Por último, os recomiendo que dentro de cada página del SLA de cada servicio , echéis un vistazo a la manera de realizar el cálculo de dicho SLA, porque habitualmente se tienen en cuenta varias variables, no únicamente el uptime de los servicios. Si esto es positivo o negativo lo dejo a vuestro criterio.
 
