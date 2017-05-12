@@ -19,30 +19,32 @@ He querido revisar el SLA ofrecido por los líderes actuales en IaaS, que según
 
 Por parte de Amazon:
 
-EC2 
+*EC2 
 El popular servicio de máquinas virtuales de Amazon ofrece un [SLA del 99.95%] (https://aws.amazon.com/es/ec2/sla/). Asumiendo un mes de 31 días (744 horas mensuales) significa que Amazon puede dejar de darnos servicio durante 3.7 horas al mes sin que tenga ningún tipo de penalización.
 
-RDS
-	Sobre el servicio de base de datos de AWS ofrece [el mismo acuerdo de servicio que EC2 (99.95%)](https://aws.amazon.com/es/rds/sla/). 
+*RDS
+Sobre el servicio de base de datos de AWS ofrece [el mismo acuerdo de servicio que EC2 (99.95%)](https://aws.amazon.com/es/rds/sla/). 
 
-S3
-	El popular servicio de storage de AWS, que sirve de base para muchos servicios de Amazon, [tal como pudimos verificar con el incidente de Febrero] (https://aws.amazon.com/es/message/41926/) , tiene un nivel de servicio inferior a EC2 y RDS, cosa que me ha sorprendido. El [SLA del S3 es del 99.90%] (https://aws.amazon.com/es/s3/sla/), que si lo transformamos a horas/mes como hemos hecho anteriormente,  estamos hablando de casi 7.5 horas de indisponibilidad al mes. 
+*S3
+El popular servicio de storage de AWS, que sirve de base para muchos servicios de Amazon, [tal como pudimos verificar con el incidente de Febrero] (https://aws.amazon.com/es/message/41926/) , tiene un nivel de servicio inferior a EC2 y RDS, cosa que me ha sorprendido. El [SLA del S3 es del 99.90%] (https://aws.amazon.com/es/s3/sla/), que si lo transformamos a horas/mes como hemos hecho anteriormente,  estamos hablando de casi 7.5 horas de indisponibilidad al mes. 
 
 Por parte de Azure: 
 
-Virtual Machines
+*Virtual Machines
+Por parte de Microsoft vemos que [garantiza el servicio de máquinas virtuales en un 99,95%] (https://azure.microsoft.com/en-us/support/legal/sla/virtual-machines/v1_0/) similar a EC2.
 
-	Por parte de Microsoft vemos que [garantiza el servicio de máquinas virtuales en un 99,95%] (https://azure.microsoft.com/en-us/support/legal/sla/virtual-machines/v1_0/) similar a EC2.
+*Azure SQL Database
+Por la parte de base de datos de Microsoft en este caso no coincide con Amazon. El nivel de servicio que nos ofrece [Azure SQL Database es del 99,90%] (https://azure.microsoft.com/en-us/support/legal/sla/sql-database/v1_0/) 
 
-Azure SQL Database
-
-	Por la parte de base de datos de Microsoft en este caso no coincide con Amazon. El nivel de servicio que nos ofrece [Azure SQL Database es del 99,90%] (https://azure.microsoft.com/en-us/support/legal/sla/sql-database/v1_0/) 
-
-Azure Storage
-
-	La parte de storage de Microsoft vemos que también tiene el mismo SLA que el storage de S3, un [99,90%] (https://azure.microsoft.com/en-us/support/legal/sla/storage/v1_0/).
+*Azure Storage
+La parte de storage de Microsoft vemos que también tiene el mismo SLA que el storage de S3, un [99,90%] (https://azure.microsoft.com/en-us/support/legal/sla/storage/v1_0/).
 
 Os lo resumo una pequeña tabla:
+
+|   | EC2/Virutal Machines  | Storage  | databases  |
+|---|---|---|---|
+| AWS  | 99,95%  |  99,90% | 99,95%  |
+| Microsoft  | 99,95%  |  99,90% | 99,90% |
 
 EC2/Virutal Machines - Storage - databases
 AWS 99,95% - 99,90% - 99,95%
