@@ -1,6 +1,6 @@
-.. title: SLA en el Cloud:que nadie os engañe, todo los servicios caen
+.. title: El SLA del Cloud
 .. author: David Acacio
-.. slug: sla-aws-azure
+.. slug: sla-cloud-aws-azure
 .. date: 2017/05/15 07:35:00
 .. tags: Cloud, SLA, AWS, Azure, Amazon, Microsoft
 
@@ -56,4 +56,4 @@ Os hago un pequeño resumen en una tabla:
 
 Os recomiendo que dentro de cada página del SLA de cada servicio , echéis un vistazo a la manera de realizar el cálculo de dicho SLA, porque habitualmente se tienen en cuenta varias variables, no únicamente el uptime de los servicios. Si esto es positivo o negativo lo dejo a vuestro criterio.
 
-Como conclusión decir que los niveles de servicio que ofrecen ambos proveedores en sus principales productos son muy parecidos. Aquí la clave es valorar el coste de generar una infraestructura que nos cubra sobre estas posibles indisponibilidades sobre el beneficio que obtendríamos teniendo nuestra infraestructura funcionando durante ese periodo. 
+Como conclusión decir que los niveles de servicio que ofrecen ambos proveedores en sus principales productos son muy parecidos. Aquí la clave es valorar el coste de generar una infraestructura que nos cubra sobre estas posibles indisponibilidades contra el beneficio que obtendríamos teniendo nuestra infraestructura funcionando durante ese periodo. 
