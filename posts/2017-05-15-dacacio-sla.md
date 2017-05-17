@@ -21,7 +21,7 @@ He querido revisar el SLA ofrecido por los líderes actuales en IaaS, que según
 
 >#### EC2
 >
->El popular servicio de máquinas virtuales de Amazon ofrece un **[SLA del 99.95%](https://aws.amazon.com/es/ec2/sla/)**. Utilizando una (calculadora online de SLA's)[https://uptime.is/] vemos que Amazon puede **dejar de darnos servicio durante 4 horas y 23 minutos al año** sin que tenga ningún tipo de penalización.
+>El popular servicio de máquinas virtuales de Amazon ofrece un **[SLA del 99.95%](https://aws.amazon.com/es/ec2/sla/)**. Utilizando una [calculadora online de SLAs](https://uptime.is/) vemos que Amazon puede **dejar de darnos servicio durante 4 horas y 23 minutos al año** sin que tenga ningún tipo de penalización.
 
 >#### RDS
 >
