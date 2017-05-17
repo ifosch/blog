@@ -7,7 +7,9 @@
 <img src='https://cloud.githubusercontent.com/assets/2761032/25993765/743e78a4-370b-11e7-9d3d-e8321c7d49c9.jpg' alt='SLA' class='align-left'/>
 
 A raíz del incidente de [AWS S3 del pasado 28 de Febrero](https://aws.amazon.com/es/message/41926/)  he oído, y no en pocas ocasiones, frases del estilo “pero esto del cloud no se caía, no?”, “hasta el cloud tiene caídas de servicio” y similares. 
-Si hablamos con personas que conozcan que es el cloud seguramente tendrán una opinión similar: una de las ventajas de migrar hacia el cloud es que nunca tendrás caídas de servicio. Lamentablemente eso no es del todo verdad y las empresas que ofrecen servicios de cloud lo saben.
+Si hablamos con personas que conozcan que es el cloud seguramente tendrán una opinión similar: una de las ventajas de migrar hacia el cloud es que nunca tendrás caídas de servicio. 
+
+Lamentablemente eso no es del todo verdad y las empresas que ofrecen servicios de cloud lo saben.
 
 <!-- TEASER_END -->
 
