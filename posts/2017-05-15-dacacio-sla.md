@@ -51,7 +51,7 @@ He querido revisar el SLA ofrecido por los líderes actuales en IaaS, que según
 
 Os hago un pequeño resumen en una tabla:
 
-Proveedor | EC2/Virutal Machines | Storage | Databases
+Proveedor | EC2/Virtual Machines | Storage | Databases
 --------- | -------------------- | ------- | ---------
 AWS       |         99,95%       |  99,90% |   99,95% 
 Microsoft |         99,95%       |  99,90% |   99,90% 
