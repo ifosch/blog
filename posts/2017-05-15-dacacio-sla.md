@@ -1,7 +1,7 @@
 .. title: El SLA del Cloud
 .. author: David Acacio
 .. slug: sla-cloud-aws-azure
-.. date: 2017/05/15 07:35:00
+.. date: 2017/05/17 13:35:00
 .. tags: Cloud, SLA, AWS, Azure, Amazon, Microsoft
 
 <img src='https://cloud.githubusercontent.com/assets/2761032/25993765/743e78a4-370b-11e7-9d3d-e8321c7d49c9.jpg' alt='SLA' class='align-left' height='110' width='110'/>
