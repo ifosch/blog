@@ -51,10 +51,10 @@ He querido revisar el SLA ofrecido por los líderes actuales en IaaS, que según
 
 Os hago un pequeño resumen en una tabla:
 
-|           |EC2/Virutal Machines | Storage | Databases |
-|:----------|:--------------------|:--------|:----------|
-| AWS       | 99,95%              | 99,90%  | 99,95%    |
-| Microsoft | 99,95%              | 99,90%  | 99,90%    |
+ | EC2/Virutal Machines | Storage | Databases 
+--- | --- | --- | ---
+AWS | 99,95% | 99,90% | 99,95%
+Microsoft | 99,95% | 99,90% | 99,90%
 
 Os recomiendo que dentro de cada página del SLA de cada servicio , echéis un vistazo a la manera de realizar el cálculo de dicho SLA, porque habitualmente se tienen en cuenta varias variables, no únicamente el uptime de los servicios. Si esto es positivo o negativo lo dejo a vuestro criterio.
 
