@@ -3,6 +3,7 @@ python:
   - "2.7"
 sudo: false
 before_script:
+  - export PYTHONIOENCODING=UTF-8
   - export PATH="$HOME/node_modules/.bin:$PATH"
   - pip install -r requirements.txt
   - nikola build
