@@ -1,4 +1,4 @@
-.. title: Podcast 27: Comparando AWS y Azure con Javi Moreno (@ciberado)
+.. title: Podcast 27: Comparando AWS y Azure con Javi Moreno
 .. author: David Acacio
 .. slug: podcast-episodio-27
 .. date: 2017/08/01 13:00:00
