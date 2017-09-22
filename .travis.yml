@@ -2,8 +2,6 @@ language: python
 python:
   - "2.7"
 sudo: true
-virtualenv:
-  system_site_packages: true
 before_script:
   - export PYTHONIOENCODING=UTF-8
   - export PATH="$HOME/node_modules/.bin:$PATH"
