@@ -5,6 +5,10 @@ sudo: false
 virtualenv:
   system_site_packages: true
 before_script:
+  - . $HOME/.nvm/nvm.sh
+  - nvm install stable
+  - nvm use stable
+  - npm install -g less
   - export PYTHONIOENCODING=UTF-8
   - export PATH="$HOME/node_modules/.bin:$PATH"
   - pip install -r requirements.txt 
