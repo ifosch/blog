@@ -5,7 +5,7 @@ sudo: false
 before_script:
   - export PYTHONIOENCODING=UTF-8
   - export PATH="$HOME/node_modules/.bin:$PATH"
-  - pip install -r requirements.txt
+  - pip install --force-reinstall -r requirements.txt
   - nikola build
 script:
   - git config --global user.email "travis@edyo.es"
