@@ -2,7 +2,7 @@
 .. author: Daniel Aresté
 .. slug: referendum-votar
 .. date: 2017/09/22 22:00:00
-.. tags: Seguridad,Javascript
+.. tags: Seguridad,JavaScript
 
 <img src='https://user-images.githubusercontent.com/5310624/30765928-56c56350-9ff2-11e7-85a8-cc8fad0d7947.jpg' alt='yes-no' class='align-left height='200' width='200'/>
 
