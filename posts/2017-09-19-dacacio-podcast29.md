@@ -7,7 +7,7 @@
 
 <img src='/images/edyo-podcast.png' alt='EDyO Podcast' class='align-right height='110' width='110'/>
 
-En el episodio 29 del podcast de http://www.entredevyops.es, hemos dado respuesta a la petición de un oyente, y os explicamos las herramientas que utilizamos en nuestro día a día: equipos, sistemas operativos, editores, etc.
+En el [episodio 29 del podcast de http://www.entredevyops.es](http://podcast.edyo.es/files/edyo-29.mp3), hemos dado respuesta a la petición de un oyente, y os explicamos las herramientas que utilizamos en nuestro día a día: equipos, sistemas operativos, editores, etc.
 
 Si os gusta nuestro trabajo por favor corred la voz, dadnos feedback, y valorad con 5 estrellas [iTunes](https://itunes.apple.com/es/podcast/entredevyops-podcast/id866788492) y me gusta en [Ivoox](https://www.ivoox.com/podcast-entre-dev-y-ops-podcast_sq_f1112910_1.html).
 
